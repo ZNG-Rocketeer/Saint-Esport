@@ -8,7 +8,6 @@
   <title> Sainté E-sport </title>
 </head>
 
-
 <body>
   <!-- HEADER -->
   <header>
@@ -21,24 +20,33 @@
 
   <!-- BAR DE NAVIGATION  -->
   <nav class="nav-padding margin-top centrer">
-    <a class="bar-menu" title="Accueil" href="index.php">ACCUEIL</a>
-    <a class="bar-menu" title="Infos" href="/actualites/">ACTUS</a>
-    <a class="bar-menu" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
-    <a class="bar-menu" title="Contact" href="/contact/">CONTACT</a>
+    <a class="bar-espace" title="Accueil" href="index.php">ACCUEIL</a>
+    <a class="bar-espace" title="Infos" href="/actualites/">INFOS</a>
+    <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
+    <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
   </nav>
 </header>
+
 <?php
 if(isset($_SESSION['pseudo'])){
   echo $_SESSION['pseudo'];
 }
 
 ?>
-<p> Bienvenue sur le site de Sainté Esport </p>
-<p> Sur ce site, vous pouvez trouver toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
+<p> Bienvenue sur le site de Sainté Esport. </p>
+<p> Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
 
-<section>
-</section>
-
+<aside>
+<p> Testez votre APM ici </p>
+<p> Fonction pour tester apm </p>
+</aside>
+<article>
+  Article1</br>Blalbalbalablalbablalb</br>BLBlblabla
+</article>
+<article>
+ Article2</br>fojiaefnpeifnaihdfzenbdpze</br>
+ feoijenfeaun
+</article>
 <!-- FOOTER -->
 <footer>
 </footer>

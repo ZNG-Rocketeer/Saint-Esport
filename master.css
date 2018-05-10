@@ -2,18 +2,29 @@ body {
     background-color: #A9A9A9;
 }
 nav{
-  min-height: 40%; Pour au cas ou on utilise une image
+  /*min-height: 40%; Pour au cas ou on utilise une image*/
   margin: 0;
 }
 
+section{
+
+}
 
 .centrer{
   text-align: center;
 }
 
-header .centrer{
+header{
   color: white;
   background-color: green;
+  width:100%;
+}
+
+aside{
+  float: right;
+  border-radius: 10px;
+  border: black;
+  box-shadow: black;
 }
 
 a{
@@ -21,6 +32,13 @@ a{
   text-decoration:none;
 }
 
+article{
+  width: 200px;
+  height: 200px;
+  display: table-cell;
+  padding: 100px;
+  border-style: solid;
+}
 .nav-padding{
   padding:8px 16px;
   color: blank;
@@ -33,7 +51,7 @@ a{
 }
 
 .bar-espace{
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .hidden{
