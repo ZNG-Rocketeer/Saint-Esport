@@ -25,13 +25,17 @@
   <h2 class="centrer">Inscription</h2>
   <?php
   include 'pdo_init.php';
-    if (isset($_POST['pseudo']) ) {
-      $sel = $pdo->prepare("SELECT * FROM table WHERE id = ?");
-      $sel->bindParam(1,$var);
+  if (isset($_POST['pseudo']) && isset($_POST['mail']) && isset($_POST['mdp1']) && isset($_POST['mdp2'])) {
+    $sel = $pdo->prepare("INSERT INTO zng_user values ( ? , ? , ? )");
+    if($_POST['mdp1']==$_POST['mdp2']){
+      $sel->bindParam(1,$_POST['pseudo']);
+      $sel->bindParam(2,$_POST['mail']);
+      $sel->bindParam(3,$_POST['mdp1']);
       $sel->execute();
-
     }
-   ?>
+
+  }
+  ?>
   <form class="centrer" name="inscription" action="inscription.php" method="post">
     <label>
       Pseudo <input type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
