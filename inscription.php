@@ -12,13 +12,9 @@
     <a class="bar-espace" title="Accueil" href="index.php">ACCUEIL</a>
 
     <a class="bar-espace" title="Actus" href="/actualites/">ACTUS</a>
-
-    <a class="bar-espace" title="Médias" href="/photos/">MÉDIAS</a>
-
+    <a class="bar-espace" title="Infos" href="/photos/">MÉDIAS</a>
     <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
-
     <a class="bar-espace" title="L&#39;association" href="/association/">L&#39;ASSOCIATION</a>
-
     <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
   </nav>
 </header>

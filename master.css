@@ -1,14 +1,31 @@
+body {
+    background-color: #A9A9A9;
+}
 nav{
-  /*min-height: 40%; Pour au cas ou on utilise une image*/
+  min-height: 40%; Pour au cas ou on utilise une image
   margin: 0;
 }
+
 
 .centrer{
   text-align: center;
 }
 
+header .centrer{
+  color: white;
+  background-color: green;
+}
+
+a{
+  color: white;
+  text-decoration:none;
+}
+
 .nav-padding{
   padding:8px 16px;
+  color: blank;
+  background-color: black;
+  word-spacing: 20px;
 }
 
 .margin-top{
@@ -22,3 +39,5 @@ nav{
 .hidden{
   visibility: hidden;
 }
+
+.Membre{float: right; height: 60px;}
