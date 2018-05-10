@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -19,16 +21,22 @@
 
     <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
   </nav>
-
-  <div id="Inscription">
-    <ul>
-      <li> <a href="inscription.php" title="Inscription"> Inscription</a></li>
-    </ul>
-  </div>
 </header>
 <body>
-  <p> Bienvenue sur le site de Sainté Esport </p>
-  <p> Sur ce site, vous pouvez trouver toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités </p>
-
-</body>
-</html>
+  <h2 class="centrer">Connexion</h2>
+  <?php
+  include 'pdo_init.php';
+  include 'pdo_log.php';
+  ?>
+  <form class="centrer" name="inscription" action="connect.php" method="post">
+    <label>
+      Pseudo <input type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
+    </label>
+    <br>
+    <label>
+      Mot de passe <input type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
+    </label>
+    <br>
+    <input type="submit" name="submit" value="S'inscrire">
+  </body>
+  </html>

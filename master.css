@@ -18,3 +18,7 @@ nav{
 .bar-espace{
   margin-right: 20px;
 }
+
+.hidden{
+  visibility: hidden;
+}
