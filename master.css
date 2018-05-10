@@ -1,0 +1,20 @@
+nav{
+  /*min-height: 40%; Pour au cas ou on utilise une image*/
+  margin: 0;
+}
+
+.centrer{
+  text-align: center;
+}
+
+.nav-padding{
+  padding:8px 16px;
+}
+
+.margin-top{
+  margin-top:10px;
+}
+
+.bar-espace{
+  margin-right: 20px;
+}
