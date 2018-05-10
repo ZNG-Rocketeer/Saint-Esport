@@ -8,7 +8,7 @@
 <header>
   <h1 class="centrer"> SAINTE ESPORT with Zanga Esport </h1>
   <nav class="nav-padding margin-top centrer">
-    <a class="bar-espace" title="Accueil" href="Lan.html">ACCUEIL</a>
+    <a class="bar-espace" title="Accueil" href="index.html">ACCUEIL</a>
 
     <a class="bar-espace" title="Actus" href="/actualites/">ACTUS</a>
 
@@ -23,6 +23,15 @@
 </header>
 <body>
   <h2 class="centrer">Inscription</h2>
+  <?php
+  include 'pdo_init.php';
+    if (isset($_POST['pseudo']) ) {
+      $sel = $pdo->prepare("SELECT * FROM table WHERE id = ?");
+      $sel->bindParam(1,$var);
+      $sel->execute();
+
+    }
+   ?>
   <form class="centrer" name="inscription" action="inscription.php" method="post">
     <label>
       Pseudo <input type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
