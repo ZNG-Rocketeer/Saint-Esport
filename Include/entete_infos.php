@@ -10,7 +10,7 @@
 <!-- BAR DE NAVIGATION  -->
 <nav class="nav-padding margin-top centrer">
   <a class="bar-espace" title="Accueil" href="../index.php">ACCUEIL</a>
-  <a class="bar-espace" title="Infos" href="../infos.php">INFOS</a>
+  <a class="bar-espace" title="Infos" href="../Infos/">INFOS</a>
   <a class="bar-espace" title="Partenaires" href="../Partenaires/">PARTENAIRES</a>
   <a class="bar-espace" title="Forum" href="../Forum/">FORUM</a>
   <a class="bar-espace" title="Contact" href="../Contact/">CONTACT</a>
