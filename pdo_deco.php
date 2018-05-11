@@ -1,8 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION('pseudo'))){
   session_destroy();
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +10,7 @@ if(isset($_SESSION('pseudo'))){
   </head>
   <body>
     <script type="text/javascript">
-      document.location.href="index.php";
+      document.location.href="/";
     </script>
   </body>
 </html>

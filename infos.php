@@ -38,28 +38,28 @@
       <a class="bar-espace" title="Infos" href="/infos.php">INFOS</a>
       <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
       <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
-      <a class="bar-espace" title="Forum" href="/forum/">FORUM</a>
     </nav>
-  </header>
+  <nav class="centrer">
+    <a class="bar-espace" title="Tournoi" href="./Infos/tournoi.html">Tournoi</a>
+    <a class="bar-espace" title="Horaire" href="./Infos/horaire.html">Horaire</a>
+    <a class="bar-espace" title="Materiel" href="./Infos/materiel.html">Materiel</a>
+    <a class="bar-espace" title="Inscription" href="./Infos/inscription.html">Inscription</a>
+  </nav>
+</header>
 
-</br>
+<h1 > LAN Party </h2>
 
-<p> Bienvenue sur le site de Sainté Esport. </p>
-<p> Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
+<p> Venez à l’une des plus grandes LAN Party français où l’ambiance
+  et les gens que vous rencontrerez vous ferons passer des moments exceptionnels.</br>
+  Cette année, la Sainté Esport accueillera plus de 5000 participants!</br>
+  Visitez cette belle ville qu'est Saint-Etienne pendant ces 3 jours de festivités et de compétitions! </p>
 
-<aside>
-  <p> Testez votre APM ici </p>
-  <p> Fonction pour tester apm </p>
-</aside>
-<article>
-  Article1</br>Blalbalbalablalbablalb</br>BLBlblabla
-</article>
-<article>
-  Article2</br>fojiaefnpeifnaihdfzenbdpze</br>
-  feoijenfeaun
-</article>
-<!-- FOOTER -->
-<footer>
-</footer>
+  <footer>
+  </footer>
 </body>
+
+
+
+
+
 </html>
