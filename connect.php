@@ -6,23 +6,21 @@
   <link rel="stylesheet" href="master.css">
   <title> Sainté E-sport </title>
 </head>
-<header>
-  <h1 class="centrer"> SAINTE ESPORT with Zanga Esport </h1>
-  <nav class="nav-padding margin-top centrer">
-    <a class="bar-espace" title="Accueil" href="index.html">ACCUEIL</a>
 
-    <a class="bar-espace" title="Actus" href="/actualites/">ACTUS</a>
-
-    <a class="bar-espace" title="Médias" href="/photos/">MÉDIAS</a>
-
-    <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
-
-    <a class="bar-espace" title="L&#39;association" href="/association/">L&#39;ASSOCIATION</a>
-
-    <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
-  </nav>
-</header>
 <body>
+  <header>
+    <a href="./index.php"> <img class="Top-right" src="/Image/Logo_ASSE.png" alt="Sainte E-sport"> </a>
+    <h1 class="centrer"> SAINTE ESPORT</h1>
+    <nav class="nav-padding margin-top centrer">
+      <a class="bar-espace" title="Accueil" href="index.php">ACCUEIL</a>
+      <a class="bar-espace" title="Infos" href="/infos.html/">INFOS</a>
+      <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
+      <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
+    </nav>
+  </header>
+
+</br>
+
   <h2 class="centrer">Connexion</h2>
   <?php
   include 'pdo_init.php';

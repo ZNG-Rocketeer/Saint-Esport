@@ -6,16 +6,19 @@
   <link rel="stylesheet" href="master.css">
   <title> Sainté E-sport </title>
 </head>
-<header>
-  <h1 class="centrer"> SAINTE ESPORT with Zanga Esport </h1>
-  <nav class="nav-padding margin-top centrer">
-    <a class="bar-espace" title="Accueil" href="index.php">ACCUEIL</a>
-    <a class="bar-espace" title="Infos" href="/actualites/">INFOS</a>
-    <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
-    <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
-  </nav>
-</header>
+
 <body>
+  <header>
+    <a href="./index.php"> <img class="Top-right" src="/Image/Logo_ASSE.png" alt="Sainte E-sport"> </a>
+    <h1 class="centrer"> SAINTE ESPORT</h1>
+    <!-- BAR DE NAVIGATION -->
+    <nav class="nav-padding margin-top centrer">
+      <a class="bar-espace" title="Accueil" href="index.php">ACCUEIL</a>
+      <a class="bar-espace" title="Infos" href="/infos.html">INFOS</a>
+      <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
+      <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
+    </nav>
+  </header>
   <?php
   if(isset($_SESSION['pseudo'])){
     echo $_SESSION['pseudo'];

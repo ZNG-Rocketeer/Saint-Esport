@@ -1,5 +1,5 @@
 body {
-    background-color: #A9A9A9;
+  background-color: #A9A9A9;
 }
 nav{
   /*min-height: 40%; Pour au cas ou on utilise une image*/
@@ -33,12 +33,22 @@ a{
 }
 
 article{
-  width: 200px;
+  width: 500px;
   height: 200px;
   display: table-cell;
-  padding: 100px;
+  padding: 50px;
   border-style: solid;
+
 }
+
+.Top-right{
+  position:absolute;
+  top:15px;
+  left:50px;
+  width:100px;
+  height:100px;
+}
+
 .nav-padding{
   padding:8px 16px;
   color: blank;
