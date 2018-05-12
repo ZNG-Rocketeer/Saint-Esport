@@ -9,12 +9,8 @@
 
 <body>
   <!-- HEADER -->
-<<<<<<< HEAD
     <?php include("../Include/entete.php"); ?>
 
-=======
-  <?php include("../Include/entete.php"); ?>
->>>>>>> 79458711d152a19a119bd039ef6af9d5e340889b
   <form class="centrer" name="new_discussion" action="new_discussion.php" method="post">
     <label>
       Titre du sujet <input type="text" name="sujet" placeholder="Entrez le titre du sujet" required="required">
