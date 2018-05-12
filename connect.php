@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("Include/entete.php"); ?>
-</br>
+  <br/>
 
   <h2 class="centrer">Connexion</h2>
   <?php
@@ -21,11 +21,11 @@
     <label>
       Pseudo <input type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
     </label>
-    <br>
+    <br/>
     <label>
       Mot de passe <input type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
     </label>
-    <br>
+    <br/>
     <input type="submit" name="submit" value="Connexion">
   </body>
   </html>

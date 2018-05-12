@@ -11,24 +11,24 @@
   <!-- HEADER -->
   <?php include("Include/entete.php"); ?>
 
-</br>
+  <br/>
 
-<p> Bienvenue sur le site de Sainté Esport. </p>
-<p> Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
+  <p> Bienvenue sur le site de Sainté Esport. </p>
+  <p> Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
 
-<aside>
-  <p> Testez votre APM ici </p>
-  <p> Fonction pour tester apm </p>
-</aside>
-<article>
-  Article1</br>Blalbalbalablalbablalb</br>BLBlblabla
-</article>
-<article>
-  Article2</br>fojiaefnpeifnaihdfzenbdpze</br>
-  feoijenfeaun
-</article>
-<!-- FOOTER -->
-<footer>
-</footer>
+  <aside>
+    <p> Testez votre APM ici </p>
+    <p> Fonction pour tester apm </p>
+  </aside>
+  <article>
+    Article1<br/>Blalbalbalablalbablalb<br/>BLBlblabla
+  </article>
+  <article>
+    Article2<br/>fojiaefnpeifnaihdfzenbdpze<br/>
+    feoijenfeaun
+  </article>
+  <!-- FOOTER -->
+  <footer>
+  </footer>
 </body>
 </html>
