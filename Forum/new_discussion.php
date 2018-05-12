@@ -17,7 +17,7 @@
     </label>
     <br/>
     <label>
-      Premier Post <textarea rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
+      <textarea rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
     </label>
 
     <?php
