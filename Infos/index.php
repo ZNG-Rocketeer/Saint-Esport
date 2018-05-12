@@ -18,8 +18,8 @@
   Cette année, la Sainté Esport accueillera plus de 5000 participants!</br>
   Visitez cette belle ville qu'est Saint-Etienne pendant ces 3 jours de festivités et de compétitions! </p>
 
-  <footer>
-  </footer>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
 
 

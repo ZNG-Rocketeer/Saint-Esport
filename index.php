@@ -37,11 +37,8 @@
   <!-- AddToAny END -->
 
 </article>
-<article>
-  Article2<br/>fojiaefnpeifnaihdfzenbdpze<br/>
-  feoijenfeaun
-</article>
+
 <!-- FOOTER -->
-<?php include("../Include/footer.php")?>
+<?php include("/Include/footer.php")?>
 </body>
 </html>

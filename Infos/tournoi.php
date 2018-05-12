@@ -28,8 +28,8 @@
     </p>
   </article>
 
-  <footer>
-  </footer>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
 
 

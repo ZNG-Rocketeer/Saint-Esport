@@ -12,5 +12,7 @@ session_start();
     <script type="text/javascript">
       document.location.href="/";
     </script>
+    <!-- FOOTER -->
+    <?php include("/Include/footer.php")?>
   </body>
 </html>

@@ -60,7 +60,7 @@ header{
 
 aside{
 	position: absolute;
-	top: 500px;
+	top: 0px;
 	right: 100px;
 	border-radius: 45px;
 	border: black;
@@ -115,7 +115,7 @@ footer{
 	background-color: green;
 }
 
-footer+p{
+footer + p{
 	color:black;
 }
 

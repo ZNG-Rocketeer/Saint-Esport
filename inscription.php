@@ -39,5 +39,8 @@
     <br/>
     <input type="submit" name="submit" value="S'inscrire">
   </form>
-  </body>
-  </html>
+  
+  <!-- FOOTER -->
+  <?php include("/Include/footer.php")?>
+</body>
+</html>
