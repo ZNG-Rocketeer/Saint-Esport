@@ -18,19 +18,15 @@ table{
 	border: 3px solid;
 	border-collapse: separate;
 	background-color: white;
+	color: black;
 }
 
 thead{
 	background-color: green;
 }
 
-tr .impair{
-	background-color: #3C847B;
-}
 
-tr .pair{
-	background-color: #FEFEFE;
-}
+
 .centrer{
 	text-align: center;
 	color: black;
