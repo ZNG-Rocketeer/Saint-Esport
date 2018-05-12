@@ -18,7 +18,7 @@ if(isset($_POST['mdp']) && isset($_POST['pseudo'])){
   <script type="text/javascript">
   document.location.href="/";
   </script>
-  <?php include("/Include/footer.php")?>
+  <?php include("Include/footer.php")?>
   </body>
   </html>
   ';

@@ -13,6 +13,6 @@ session_start();
       document.location.href="/";
     </script>
     <!-- FOOTER -->
-    <?php include("/Include/footer.php")?>
+    <?php include("Include/footer.php")?>
   </body>
 </html>
