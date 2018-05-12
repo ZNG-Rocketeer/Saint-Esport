@@ -23,7 +23,7 @@ try{
     else
     {
       echo '
-      <tr style="background-color: #3C847B;">
+      <tr style="background-color: #A9A9A9;">
       <td><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
