@@ -59,7 +59,7 @@ header{
 }
 
 aside{
-	position: relative;
+	position: absolute;
 	top: 250px;
 	right: 100px;
 	border-radius: 45px;
