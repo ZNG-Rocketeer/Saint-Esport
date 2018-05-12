@@ -19,8 +19,7 @@
 </p>
 </article>
 
-<footer>
-</footer>
+<?php include("../Include/footer.php")?>
 </body>
 
 

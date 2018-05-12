@@ -39,6 +39,7 @@ form{
 	text-align: center;
 	margin: auto;
 	margin-top: 20px;
+	padding: 20px;
 	width: 500px;
 	border: 3px solid black;
 }
@@ -106,3 +107,13 @@ article{
 }
 
 .Membre{float: right; height: 60px;}
+
+/*** FOOTER ****/
+footer{
+	background-color: green;
+}
+footer+p{
+	color:black;
+}
+
+/*** FIN FOOTER ****/

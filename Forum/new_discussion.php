@@ -17,7 +17,7 @@
     </label>
     <br/>
     <label>
-      <textarea name="post" placeholder="Contenu du post, soyez poli et courtois" required="required"> </textarea>
+      <textarea rows="4" cols="50" name="post" placeholder="Contenu du post, soyez poli et courtois" required="required"></textarea>
     </label>
 
     <?php
@@ -26,5 +26,7 @@
     <br/>
     <input type="submit" name="submit" value="Poster">
   </form>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
 </html>
