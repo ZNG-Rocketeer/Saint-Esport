@@ -113,13 +113,14 @@ article{
 /*** FOOTER ****/
 footer{
 	position:absolute;
-	bottom:0px;
+	bottom:10px;
 	background: green;
 	text-align: center;
 }
 
 footer p{
 	color:black;
+	background-color: green;
 }
 
 /*** FIN FOOTER ****/
