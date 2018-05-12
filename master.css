@@ -112,7 +112,7 @@ article{
 
 /*** FOOTER ****/
 footer{
-	position:absolute;
+	position:relative;
 	bottom:10px;
 	width: 1000px;
 	background-color: green;
