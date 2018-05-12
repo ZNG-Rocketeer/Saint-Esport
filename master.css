@@ -114,10 +114,11 @@ article{
 footer{
 	position:absolute;
 	bottom:0px;
-	background-color: green;
+	background: green;
+	text-align: center;
 }
 
-footer + p{
+footer p{
 	color:black;
 }
 
