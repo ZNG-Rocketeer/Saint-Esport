@@ -1,6 +1,6 @@
 <?php
 include '../pdo_init.php';
-echo $_SESSION['mail'];
+/**echo $_SESSION['mail'];**/ /** Pas besoin de mettre le mail **/
 if (isset($_POST['sujet']) && isset($_POST['post'])) {
   try{
     $new_topics = $pdo->prepare("INSERT INTO Forum_sujet(sujet,date,mail) VALUES ( ? , CURRENT_TIMESTAMP , ? )");

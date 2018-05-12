@@ -9,7 +9,7 @@
 
 <body>
   <!-- HEADER -->
-    <?php include("../Include/entete.php"); ?>
+  <?php include("../Include/entete.php"); ?>
 
   <form class="centrer" id="Form" name="new_discussion" action="new_discussion.php" method="post">
     <label>
@@ -17,7 +17,7 @@
     </label>
     <br/>
     <label>
-      <textarea name="post" placeholder="Contenu du post" required="required"> </textarea>
+      <textarea name="post" placeholder="Contenu du post, soyez poli et courtois" required="required"> </textarea>
     </label>
 
     <?php
