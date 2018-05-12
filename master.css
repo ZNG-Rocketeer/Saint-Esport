@@ -113,11 +113,9 @@ article{
 /*** FOOTER ****/
 footer{
 	background: green;
-	position:absolute;
 	bottom:0px;
-	height:150px;
-	margin-left:auto;
-	margin-right:auto;
+	padding-left:auto;
+	padding-right:auto;
 }
 
 /*** FIN FOOTER ****/
