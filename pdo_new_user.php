@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['pseudo']) && isset($_POST['mail']) && isset($_POST['mdp1']) && isset($_POST['mdp2'])) {
-  $ins = $pdo->prepare("INSERT INTO zng_user values ( ? , ? , ? )");
+  $ins = $pdo->prepare("INSERT INTO zng_user (pseudo, mail, mdp, niveau_importance, date_inscription) VALUES (?, ?, ?, 1, CURRENT_TIMESTAMP)");
   $sel_mail = $pdo->prepare("SELECT * FROM zng_user WHERE mail= ? ");
   $sel_mail->bindParam(1,$_POST['mail']);
   $sel_mail->execute();
