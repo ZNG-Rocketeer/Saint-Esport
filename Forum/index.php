@@ -20,6 +20,6 @@
     </tr>
     <?php include 'liste_sujet.php'?>
   </table>
-  <a class="centrer" href="new_discussion.php"><strong>Nouveau sujet</strong></a>
+  <a class="centrer" href="new_discussion.php"><h4>Nouveau sujet</h4></a>
 </body>
 </html>

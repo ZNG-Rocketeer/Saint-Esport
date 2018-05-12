@@ -11,7 +11,7 @@
   <!-- HEADER -->
     <?php include("../Include/entete.php"); ?>
 
-  <form class="centrer" name="new_discussion" action="new_discussion.php" method="post">
+  <form class="centrer" id="Form" name="new_discussion" action="new_discussion.php" method="post">
     <label>
       Titre du sujet <input type="text" name="sujet" placeholder="Entrez le titre du sujet" required="required">
     </label>
