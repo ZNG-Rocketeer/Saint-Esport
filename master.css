@@ -112,10 +112,11 @@ article{
 
 /*** FOOTER ****/
 footer{
-	background: green;
+	position-absolute;
 	bottom:0px;
-	padding-left:auto;
-	padding-right:auto;
 }
 
+footer p{
+	background-color: green;
+}
 /*** FIN FOOTER ****/
