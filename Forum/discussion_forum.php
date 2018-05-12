@@ -28,29 +28,16 @@
       ';
     }
     ?>
-    <h1 class="centrer"> SAINTE ESPORT </h1>
-    <!-- BAR DE NAVIGATION  -->
-    <nav class="nav-padding margin-top centrer">
-      <a class="bar-espace" title="Accueil" href="../index.php">ACCUEIL</a>
-      <a class="bar-espace" title="Infos" href="../Infos/infos.php">INFOS</a>
-      <a class="bar-espace" title="Partenaires" href="../partenaires/">PARTENAIRES</a>
-      <a class="bar-espace" title="Forum" href="/Forum/">FORUM</a>
-      <a class="bar-espace" title="Contact" href="../contact/">CONTACT</a>
-
-    </nav>
   </header>
 
+  <?php
+  if(isset($_GET['idsuj'])){
+    $idsuj=$_GET['idsuj'];
+    $discuss=$pdo->prepare("SELECT * FROM Forum_posts WHERE sujet=?");
+    $discuss->bindParam(1,$idsuj);
+    $discuss->execute();
+    
 
-  <table>
-    <tr>
-      <th>Titre des sujet</th>
-      <th>Auteur</th>
-      <th>Date</th>
-    </tr>
-    <?php include 'liste_sujet.php'?>
-  </table>
-
-
-  <a href="new_discussion.php">add</a>
+  }?>
 </body>
 </html>
