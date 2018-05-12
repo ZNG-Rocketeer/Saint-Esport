@@ -1,82 +1,93 @@
 html, body, p{
-	margin:0;
-	padding:0;
-  background-color: #A9A9A9;
+	margin: 0;
+	padding: 0;
+	background-color: #A9A9A9;
 }
 
 nav{
-  /*min-height: 40%; Pour au cas ou on utilise une image*/
-  margin: 0;
+	/*min-height: 40%; Pour au cas ou on utilise une image*/
+	margin: 0;
 }
 
 section{
 }
 
-table, .newsujet{
-	margin:auto;
+table{
+	margin: auto;
+	display:
+	background-color: white;
 }
 
+thead{
+	background-color: green;
+}
+
+tr .impair{
+	background-color: #3C847B;
+}
+
+tr .pair{
+	background-color: #FEFEFE;
+}
 .centrer{
-  text-align: center;
+	text-align: center;
+	color: black;
 }
 
 header{
-  color: white;
-  background-color: green;
-  width:100%;
-  padding-top:20px;
-  text-align:center;
+	color: white;
+	background-color: green;
+	width: 100%;
+	padding-top: 20px;
+	text-align:center;
 }
 
 aside{
-  float: right;
-  border-radius: 10px;
-  border: black;
-  box-shadow: black;
+	float: right;
+	border-radius: 10px;
+	border: black;
+	box-shadow: black;
 }
 
 a{
-  color: white;
-  text-decoration:none;
+	color: white;
+	text-decoration: none;
 }
 
 article{
-  width: 500px;
-  height: 200px;
-  display: table-cell;
-  padding: 50px;
-  border-style: solid;
+	width: 500px;
+	height: 200px;
+	display: table-cell;
+	padding: 50px;
+	border-style: solid;
 
 }
 
 .Top-left{
-  position:absolute;
-  top:10px;
-  left:50px;
-  width:100px;
-  height:100px;
+	position:absolute;
+	top: 10px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
 }
 
 .nav-padding{
-  padding:8px 16px;
-  color: white;
-  background-color: black;
-  word-spacing: 20px;
+	padding: 8px 16px;
+	color: white;
+	background-color: black;
+	word-spacing: 20px;
 }
 
 .margin-top{
-  margin-top:10px;
+	margin-top: 10px;
 }
 
-.deroulant a:hover{
-
-}
 .bar-espace{
-  margin: 40px;
+	margin: 40px;
 }
 
 .hidden{
-  visibility: hidden;
+	visibility: hidden;
 }
 
 .Membre{float: right; height: 60px;}

@@ -10,14 +10,16 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <a class="centrer" href="new_discussion.php"><h4>Nouveau sujet</h4></a>
   <table>
     <tr>
-      <th>Titre des sujet</th>
-      <th>Auteur</th>
-      <th>Date</th>
+      <thead>
+        <th>Titre des sujet</th>
+        <th>Auteur</th>
+        <th>Date</th>
+      </thead>
     </tr>
     <?php include 'liste_sujet.php'?>
   </table>
+  <a class="centrer" href="new_discussion.php"><h4>Nouveau sujet</h4></a>
 </body>
 </html>
