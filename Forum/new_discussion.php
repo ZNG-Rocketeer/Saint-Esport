@@ -39,7 +39,7 @@
       <a class="bar-espace" title="Partenaires" href="/partenaires/">PARTENAIRES</a>
       <a class="bar-espace" title="Forum" href="/Forum/">FORUM</a>
       <a class="bar-espace" title="Contact" href="/contact/">CONTACT</a>
-      
+
     </nav>
   </header>
   <form class="centrer" name="new_discussion" action="new_discussion.php" method="post">
@@ -52,7 +52,6 @@
     </label>
 
     <?php
-    include 'pdo_init.php';
     include 'pdo_new_topics.php';
     ?>
     <br>

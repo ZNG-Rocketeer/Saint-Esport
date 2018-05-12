@@ -1,4 +1,5 @@
 <?php
+include '../pdo_init.php';
 echo $_SESSION['mail'];
 if (isset($_POST['sujet']) && isset($_POST['post'])) {
   try{
