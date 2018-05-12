@@ -112,7 +112,7 @@ article{
 
 /*** FOOTER ****/
 footer{
-	position:aboslute;
+	position:absolute;	
 	bottom:10px;
 	margin-right: auto;
 	margin-left: auto;
