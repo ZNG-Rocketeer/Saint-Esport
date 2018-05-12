@@ -10,18 +10,11 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-
   <h1 > Contact </h1>
-
   <p>
     Contact 1, Contact 2, Contact 3.
   </p>
-  <footer>
-  </footer>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
-
-
-
-
-
 </html>
