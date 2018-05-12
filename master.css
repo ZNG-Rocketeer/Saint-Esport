@@ -34,7 +34,7 @@ thead{
 	color: black;
 }
 
-  /**** NEW SUJET ****/
+/**** NEW SUJET ****/
 form{
 	text-align: center;
 	margin: auto;
@@ -45,11 +45,11 @@ form{
 }
 
 textarea {
- max-height: 400px;
- max-width: 70%;
+	max-height: 400px;
+	max-width: 70%;
 }
 
- /**** FIN NEW SUJET ****/
+/**** FIN NEW SUJET ****/
 header{
 	color: white;
 	background-color: green;
@@ -59,8 +59,10 @@ header{
 }
 
 aside{
-	float: right;
-	border-radius: 10px;
+	position: absolute;
+	top: 500px;
+	right: 100px;
+	border-radius: 45px;
 	border: black;
 	box-shadow: black;
 }
@@ -112,6 +114,7 @@ article{
 footer{
 	background-color: green;
 }
+
 footer+p{
 	color:black;
 }
