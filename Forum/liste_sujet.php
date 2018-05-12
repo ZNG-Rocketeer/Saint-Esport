@@ -13,7 +13,7 @@ try{
     if($i % 2 == 0)
     {
       echo '
-      <tr class=\"pair\">
+      <tr class="pair">
       <td><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
@@ -23,7 +23,7 @@ try{
     else
     {
       echo '
-      <tr class=\"impair\">
+      <tr class="impair">
       <td><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
