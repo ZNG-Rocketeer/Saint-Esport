@@ -16,14 +16,13 @@
     include 'add_post.php';
     include 'affiche_post.php';
     ?>
-
   </table>
   <?php if (isset($_SESSION['pseudo'])) {
     echo '<form class="centrer" action="discussion_forum.php?idsuj='.$_GET['idsuj'].'" method="post">
-      <textarea rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
+    <textarea name="post" placeholder="Contenu du post" required="required"></textarea>
 
-      <br/>
-      <input type="submit" name="submit" value="Poster">
+    <br/>
+    <input type="submit" name="submit" value="Poster">
 
     </form>';
   }
