@@ -12,12 +12,10 @@ nav{
 section{
 }
 
-table{
+table, .newsujet{
 	margin:auto;
 }
-.newsujet{
-	padding-left: 20px;
-}
+
 .centrer{
   text-align: center;
 }
