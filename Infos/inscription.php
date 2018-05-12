@@ -10,6 +10,7 @@
 <body>
   <?php include("../Include/entete_infos.php"); ?>
 </br>
+<?php include '../pdo_init.php'; ?>
 <?php if (isset($_SESSION['pseudo'])) {
   echo'
   <article>
