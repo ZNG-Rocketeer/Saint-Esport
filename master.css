@@ -12,21 +12,23 @@ nav{
 section{
 }
 
+/***** LISTE DES SUJETS *****/
 table{
 	margin: auto;
 	margin-top: 20px;
 	border: 3px solid;
 	border-collapse: separate;
 	background-color: white;
-	color: black;
 }
 
 thead{
 	background-color: green;
 }
 
-
-
+.sujet{
+	color: black;
+}
+/***** FIN LISTE DES SUJETS *****/
 .centrer{
 	text-align: center;
 	color: black;
