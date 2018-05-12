@@ -10,6 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
+  <a href="new_discussion.php"><h4>add</h4></a>
   <table>
     <tr>
       <th>Titre des sujet</th>
@@ -18,6 +19,5 @@
     </tr>
     <?php include 'liste_sujet.php'?>
   </table>
-  <a href="new_discussion.php">add</a>
 </body>
 </html>

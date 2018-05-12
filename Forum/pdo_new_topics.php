@@ -10,7 +10,7 @@ if (isset($_POST['sujet']) && isset($_POST['post'])) {
 
     $recup=$pdo->lastInsertId();
 
-    $new_post =$pdo->prepare("INSERT INTO Forum_posts(sujet,date,mail,contenu) VALUES ( ? , CURRENT_TIMESTAMP , ? , ? )");
+    $new_post =$pdo->prepare("INSERT INTO Forum_posts(sujet,date,mail,contenu,supprimable) VALUES ( ? , CURRENT_TIMESTAMP , ? , ? , 0)");
     $new_post->bindParam(1,$recup);
     $new_post->bindParam(2,$_SESSION['mail']);
     $new_post->bindParam(3,$_POST['post']);
