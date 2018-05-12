@@ -8,27 +8,27 @@
 
 <body>
   <?php include("../Include/entete_infos.php"); ?>
-</br>
+  <br/>
 
-<article>
-  <h1 > Materiel </h1>
-  <p>
-    Voici la liste de matériel à apporter pour la LAN-Party. Tout oubli de matériel est éliminatoire.
-  </br>
-  <ul>
-    <li> Ordinateur Portable ou Tour + PC </li>
-    <li> Multiprise </li>
-    <li> Souris </li>
-    <li> Clavier </li>
-    <li> Casque </li>
-    <li> Câble Ethernet RJ-45 </li>
+  <article>
+    <h1 > Materiel </h1>
+    <p>
+      Voici la liste de matériel à apporter pour la LAN-Party. Tout oubli de matériel est éliminatoire.
+      <br/>
+      <ul>
+        <li> Ordinateur Portable ou Tour + PC </li>
+        <li> Multiprise </li>
+        <li> Souris </li>
+        <li> Clavier </li>
+        <li> Casque </li>
+        <li> Câble Ethernet RJ-45 </li>
 
-  </ul>
+      </ul>
 
-</p>
-</article>
+    </p>
+  </article>
 
-<!-- FOOTER -->
-<?php include("../Include/footer.php")?>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
 </html>
