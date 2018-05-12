@@ -113,6 +113,8 @@ article{
 /*** FOOTER ****/
 footer{
 	position:absolute;
+	margin: auto;
+	width: 1000px;
 	bottom:10px;
 	background: green;
 	text-align: center;
@@ -120,7 +122,6 @@ footer{
 
 footer p{
 	color:black;
-	background-color: green;
 }
 
 /*** FIN FOOTER ****/
