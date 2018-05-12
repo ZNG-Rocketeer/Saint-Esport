@@ -112,13 +112,11 @@ article{
 
 /*** FOOTER ****/
 footer{
-	position:relative;
-	bottom:10px;
-	width: 1000px;
-	background-color: green;
+	margin: auto;
+	width: 1000px
+	font-size: 11px;
+	font-family: "Trebuchet MS";
 	border: 1px solid black;
-	text-align:center;
-	color:black;
 }
 
 /*** FIN FOOTER ****/
