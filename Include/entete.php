@@ -1,5 +1,5 @@
 <header>
-  <a href="index.php"> <img class="Top-left" src="/Image/Logo_ASSE.png" alt="Sainte E-sport"> </a>
+  <a href="../index.php"> <img class="Top-left" src="/Image/Logo_ASSE.png" alt="Sainte E-sport"> </a>
   <?php
   if(isset($_SESSION['pseudo'])){
     echo '<div class="Membre">Connecté en tant que : '.$_SESSION['pseudo'].'
