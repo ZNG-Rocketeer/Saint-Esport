@@ -26,14 +26,33 @@
       <input type="hidden" name="hosted_button_id" value="LDQVHRAWACSQU">
       <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
       <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-    </form>    
-  </article>
-  <article>
-    Article2<br/>fojiaefnpeifnaihdfzenbdpze<br/>
-    feoijenfeaun
-  </article>
-  <!-- FOOTER -->
-  <footer>
-  </footer>
+    </form>
+
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_twitter"></a>
+      <a class="a2a_button_google_plus"></a>
+      <a class="a2a_button_email"></a>
+      <a class="a2a_button_whatsapp"></a>
+      <a class="a2a_button_facebook_messenger"></a>
+    </div>
+    <script>
+    var a2a_config = a2a_config || {};
+    a2a_config.linkname = "ZNG-Esport";
+    a2a_config.linkurl = "zng-esport.tk:88";
+    a2a_config.locale = "fr";
+  </script>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
+  <!-- AddToAny END -->
+
+</article>
+<article>
+  Article2<br/>fojiaefnpeifnaihdfzenbdpze<br/>
+  feoijenfeaun
+</article>
+<!-- FOOTER -->
+<footer>
+</footer>
 </body>
 </html>
