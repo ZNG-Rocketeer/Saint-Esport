@@ -12,6 +12,12 @@ nav{
 section{
 }
 
+.liste_sujet{
+	text-align: center;
+}
+.newsujet{
+	padding-left: 20px;
+}
 .centrer{
   text-align: center;
 }

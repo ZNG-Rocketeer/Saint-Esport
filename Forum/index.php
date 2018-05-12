@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <a href="new_discussion.php"><h4>add</h4></a>
+  <a class="newsujet" href="new_discussion.php"><h4>Nouveau sujet</h4></a>
   <table>
     <tr>
       <th>Titre des sujet</th>
