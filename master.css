@@ -13,8 +13,10 @@ section{
 }
 
 table{
+	padding-top: 20px;
 	margin: auto;
-	display:
+	border: 3px solid #6495ed;
+	border-collapse: collapse;
 	background-color: white;
 }
 
