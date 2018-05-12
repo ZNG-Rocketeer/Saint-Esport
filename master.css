@@ -113,8 +113,8 @@ article{
 /*** FOOTER ****/
 footer{
 	background: green;
+	position:absolute;
 	bottom:0px;
-	width:1000px;
 	height:150px;
 	margin-left:auto;
 	margin-right:auto;
