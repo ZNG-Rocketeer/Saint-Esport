@@ -44,8 +44,8 @@ form{
 }
 
 textarea {
- max-height: 20%;
- max-width: 50%;
+ max-height: 400px;
+ max-width: 70%;
 }
 
  /**** FIN NEW SUJET ****/
