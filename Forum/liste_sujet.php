@@ -2,14 +2,18 @@
 include '../pdo_init.php';
 try{
   $liste=$pdo->prepare("SELECT * FROM Forum_sujet");
+  $liste_user=$pdo->prepare("SELECT pseudo FROM zng_user WHERE mail= ?");
   $liste->execute();
   $result_list=$liste->fetchAll();
 
   for ($i=0; $i < $liste->rowCount(); $i++) {
+    $liste_user->bindParam(1,$result_list[$i]["mail"]);
+    $liste_user->execute();
+    $result_list_user=$liste_user->fetch();
     echo '
     <tr>
     <td><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
-    <td>'.$result_list[$i]["mail"].'</td>
+    <td>'.$result_list_user['pseudo'].'</td>
     <td>'.$result_list[$i]["date"].'</td>
     </tr>
     ';
