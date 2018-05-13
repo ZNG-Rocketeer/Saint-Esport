@@ -1,12 +1,26 @@
-html, body, p{
-	margin: 0;
-	padding: 0;
-	background-color: #A9A9A9; /** Gris **/
+@font-face{
+  font-family: newfont;
+  src: url(newfont.ttf);
 }
 
-nav{
-	/*min-height: 40%; Pour au cas ou on utilise une image*/
-	margin: 0;
+@font-face{
+  font-family: HelveticaNeue;
+  src: url(HelveticaNeue.ttf);
+}
+
+
+html, body, p{
+  font-family: HelveticaNeue;
+  margin: 0;
+  padding: 0;
+  background-color: #A9A9A9; /** Gris **/
+}
+
+nav, h1, a {
+  font-family: newfont;
+  min-height: 40%;
+  /* Pour au cas ou on utilise une image */
+  margin: 0;
 }
 
 section{
@@ -14,120 +28,120 @@ section{
 
 /***** A CHANGER ******/
 h1{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 /***** LISTE DES SUJETS *****/
 table{
-	margin: auto;
-	margin-top: 20px;
-	border: 3px solid black;
-	background-color: white;
-	border-style: solid;
+  margin: auto;
+  margin-top: 20px;
+  border: 3px solid black;
+  background-color: white;
+  border-style: solid;
 }
 
 thead{
-	background-color: green;
+  background-color: green;
 }
 
 .sujet{
-	color: black;
+  color: black;
 }
 /***** FIN LISTE DES SUJETS *****/
 .centrer{
-	text-align: center;
-	color: black;
+  text-align: center;
+  color: black;
 }
 
 /**** NEW SUJET ****/
 form{
-	text-align: center;
-	margin: auto;
-	margin-top: 20px;
-	padding: 20px;
-	width: 500px;
-	border: 3px solid black;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 500px;
+  border: 3px solid black;
 }
 
 textarea {
-	max-height: 400px;
-	max-width: 70%;
+  max-height: 400px;
+  max-width: 70%;
 }
 
 /**** FIN NEW SUJET ****/
 header{
-	color: white;
-	background-color: green;
-	width: 100%;
-	padding-top: 20px;
-	text-align:center;
+  color: white;
+  background-color: green;
+  width: 100%;
+  padding-top: 20px;
+  text-align:center;
 }
 
 aside{
-	position: absolute;
-	top: 250px;
-	right: 100px;
-	border-radius: 45px;
-	border: black;
-	box-shadow: black;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  border-radius: 45px;
+  border: black;
+  box-shadow: black;
 }
 
 a{
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .Deconnexion, .Connexion, .Enregistrer, .Membre{
-	margin-right:25px;
+  margin-right:25px;
 }
 article{
-	width: 500px;
-	height: 200px;
-	display: table-cell;
-	padding: 20px;
-	margin-top: 50px;
-	border-style: solid;
+  width: 500px;
+  height: 200px;
+  display: table-cell;
+  padding: 20px;
+  margin-top: 50px;
+  border-style: solid;
 
 }
 
 .Top-left{
-	position:absolute;
-	top: 10px;
-	left: 50px;
-	width: 100px;
-	height: 100px;
+  position:absolute;
+  top: 10px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .nav-padding{
-	padding: 8px 16px;
-	color: white;
-	background-color: black;
-	word-spacing: 20px;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  word-spacing: 20px;
 }
 
 .margin-top{
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .bar-espace{
-	margin: 40px;
+  margin: 40px;
 }
 
 .hidden{
-	visibility: hidden;
+  visibility: hidden;
 }
 
 .Membre{float: right; height: 60px;}
 
 /*** FOOTER ****/
 footer{
-	position:absolute;
-	bottom:0px;
+  position:absolute;
+  bottom:0px;
 }
 
 footer p{
-	background-color: green;
-	text-align: center;
+  background-color: green;
+  text-align: center;
 }
 /*** FIN FOOTER ****/

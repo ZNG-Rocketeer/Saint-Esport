@@ -10,9 +10,9 @@
   else{
     echo '
     <div class="Membre">
-    <a class="Enregistrer" href="/inscription.php">S\'inscrire</a>
+    <a class="enregistrer" href="/inscription.php">S\'inscrire</a>
     <br/>
-    <a class="Connexion" href="/connect.php">Connexion</a>
+    <a class="connexion" href="/connect.php">Connexion</a>
     </div>
     ';
   }
