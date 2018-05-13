@@ -17,19 +17,19 @@
     ';
   }
   ?>
-<h1 class="centrer"> SAINTE ESPORT </h1>
-<!-- BAR DE NAVIGATION  -->
-<nav class="nav-padding margin-top centrer">
-  <a class="bar-espace" title="Accueil" href="../index.php">ACCUEIL</a>
-  <a class="bar-espace" title="Infos" href="../Infos/">INFOS</a>
-  <a class="bar-espace" title="Partenaires" href="../Partenaires/">PARTENAIRES</a>
-  <a class="bar-espace" title="Forum" href="../Forum/">FORUM</a>
-  <a class="bar-espace" title="Contact" href="../Contact/">CONTACT</a>
-</nav>
-<nav class="centrer">
-  <a class="bar-espace" title="Tournoi" href="./tournoi.php">Tournoi</a>
-  <a class="bar-espace" title="Horaire" href="./horaire.php">Horaire</a>
-  <a class="bar-espace" title="Materiel" href="./materiel.php">Materiel</a>
-  <a class="bar-espace" title="Inscription" href="./inscription.php">Inscription</a>
-</nav>
+  <h1 class="centrer"> SAINTE ESPORT </h1>
+  <!-- BAR DE NAVIGATION  -->
+  <nav class="nav-padding margin-top centrer">
+    <a class="bar-espace" title="Accueil" href="../index.php">ACCUEIL</a>
+    <a class="bar-espace" title="Infos" href="../Infos/">INFOS</a>
+    <a class="bar-espace" title="Partenaires" href="../Partenaires/">PARTENAIRES</a>
+    <a class="bar-espace" title="Forum" href="../Forum/">FORUM</a>
+    <a class="bar-espace" title="Contact" href="../Contact/">CONTACT</a>
+  </nav>
+  <nav class="centrer">
+    <a class="bar-espace" title="Tournoi" href="./tournoi.php">Tournoi</a>
+    <a class="bar-espace" title="Horaire" href="./horaire.php">Horaire</a>
+    <a class="bar-espace" title="Materiel" href="./materiel.php">Materiel</a>
+    <a class="bar-espace" title="Inscription" href="./inscription.php">Inscription</a>
+  </nav>
 </header>

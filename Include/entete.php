@@ -17,7 +17,7 @@
     ';
   }
   ?>
-  <h1> class="centrer"> SAINTE ESPORT </h1>
+  <h1 class="centrer"> SAINTE ESPORT </h1>
   <!-- BAR DE NAVIGATION  -->
   <nav class="nav-padding margin-top centrer">
     <a class="bar-espace" title="Accueil" href="../index.php">ACCUEIL</a>
