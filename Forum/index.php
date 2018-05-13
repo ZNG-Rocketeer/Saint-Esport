@@ -10,6 +10,8 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
+  <br>
+  <div class="centrer"><a class="btn" href="new_discussion.php">Nouveau sujet</a></div>
   <table>
     <tr>
       <thead>
@@ -20,8 +22,5 @@
     </tr>
     <?php include 'liste_sujet.php'?>
   </table>
-  <a class="centrer" href="new_discussion.php"><h4>Nouveau sujet</h4></a>
-  <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
 </body>
 </html>

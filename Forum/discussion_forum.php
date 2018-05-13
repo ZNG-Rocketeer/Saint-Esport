@@ -18,11 +18,13 @@
   </table>
   <?php if (isset($_SESSION['pseudo'])) {
     echo '<form class="centrer" action="discussion_forum.php?idsuj='.$_GET['idsuj'].'" method="post">
-    <textarea rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
+    <fieldset>
+    <legend><h2 class="centrer">Nouveau Commentaire</h2></legend>
+    <textarea class="input centrer" rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
 
     <br/>
-    <input type="submit" name="submit" value="Poster">
-
+    <input class="submit centrer" type="submit" name="submit" value="Poster">
+    </fieldset>
     </form>';
   }
   else {
@@ -31,7 +33,5 @@
     ';
   }
   ?>
-  <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
 </body>
 </html>

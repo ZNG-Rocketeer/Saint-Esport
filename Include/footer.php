@@ -1,5 +1,9 @@
+<?php
+echo '
 <footer>
-  <p class="centrer">
+  <div class="centrer">
     Sainté Esport est un site fait par des fans pour des fans en collaboration avec Zanga Esport. Tous droits réservés.
-  </p>
+  </div>
 </footer>
+';
+?>

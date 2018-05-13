@@ -20,5 +20,11 @@ if (isset($_POST['sujet']) && isset($_POST['post'])) {
   catch (Exception $e){
     die('Erreur : ' . $e->getMessage());
   }
+
+  echo '
+  <script type="text/javascript">
+    document.location.href="/Forum";
+  </script>
+  ';
 }
 ?>

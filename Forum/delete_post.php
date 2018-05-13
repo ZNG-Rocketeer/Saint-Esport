@@ -29,7 +29,5 @@
   document.location.href="/Forum/discussion_forum.php?idsuj='.$_GET['idsuj'].'";
   </script>';
   ?>
-  <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
 </body>
 </html>

@@ -12,23 +12,23 @@
   <?php include("Include/entete.php"); ?>
   <br/>
 
-  <h2 class="centrer">Connexion</h2>
   <?php
-  include 'pdo_init.php';
   include 'pdo_log.php';
   ?>
-  <form class="centrer" name="connexion" action="connect.php" method="post">
-    <label>
-      Pseudo <input type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
-    </label>
-    <br/>
-    <label>
-      Mot de passe <input type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
-    </label>
-    <br/>
-    <input type="submit" name="submit" value="Connexion">
 
-    <!-- FOOTER -->
-    <?php include("Include/footer.php")?>
-  </body>
-  </html>
+  <form class="centrer" name="connexion" action="connect.php" method="post">
+    <fieldset>
+      <legend><h2 class="centrer">Connexion</h2></legend>
+      <label>
+        Pseudo: <br><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
+      </label>
+      <br/>
+      <label>
+        Mot de passe: <br><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
+      </label>
+      <br/>
+      <input class="submit centrer" type="submit" name="submit" value="Connexion">
+    </fieldset>
+  </form>
+</body>
+</html>

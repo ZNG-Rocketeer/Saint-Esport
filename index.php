@@ -38,7 +38,5 @@
     <!-- AddToAny END -->
   </article>
 
-  <!-- FOOTER -->
-  <?php include("Include/footer.php")?>
 </body>
 </html>

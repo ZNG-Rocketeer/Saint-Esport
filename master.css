@@ -8,34 +8,160 @@
   src: url(HelveticaNeue.ttf);
 }
 
+@font-face{
+  font-family: Devil;
+  src: url(DevilBreezeBold.ttf);
+}
 
-html, body, p{
-  font-family: HelveticaNeue;
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+body {
   margin: 0;
+  font-family: "Helvetica";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #A9A9A9; /** Gris **/
+}
+
+p{
+  font-family: HelveticaNeue;
   padding: 0;
   background-color: #A9A9A9; /** Gris **/
 }
 
-nav, h1, a {
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: auto;
+  margin-right: auto;
   font-family: newfont;
-  min-height: 40%;
-  /* Pour au cas ou on utilise une image */
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  text-shadow: 0px 2px 5px #727272,5px 5px 20px #494949;
+  font-size: 5rem;
+}
+
+
+a {
+  line-height: 3;
+  border-radius:5px;
+  font-family: newfont;
+  color: black;
+}
+
+
+nav{
+  min-height: 100%;
+  font-family: newfont;
   margin: 0;
 }
 
-section{
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+input,
+textarea {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+.logo {
+  font-family: Devil;
+  font-size: 2rem;
+  background-color: black;
+  border-radius: 10px;
+  transform: skew(-10deg);
+  float:left;
+  text-align: left;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+.box{
+  padding:8px 40px;
+  vertical-align:middle;
+  color: #d6d6d6;
+  background-color:#6d6d6d;
+  opacity: 0.8;
+  line-height:1.5;
+  border-radius:5px;
+  box-shadow: 0px 2px 5px #222222,5px 5px 20px #121212;
+  font-weight: bold;
+}
+
+.btn{
+  padding:8px 40px;
+  vertical-align:middle;
+  color:black;
+  background-color:#FFFFFF;
+  opacity: 0.2;
+  line-height: 3;
+  border-radius:5px;
+  box-shadow: 0px 2px 5px #727272,5px 5px 20px #494949;
+  font-weight: bold;
+}
+
+.btn:hover{
+  opacity: 1;
+  background-color:#CCC;
+}
+
+.input{
+  border: 3px solid #7a7a7a;
+  padding: 12px;
+  margin: 8px;
+  box-shadow: 0px 2px 5px #727272,5px 5px 20px #494949;
+  background-color:#afafaf;
+  color: #636363;
+  border-radius:10px;
+}
+::placeholder{
+  color: #636363;
+}
+
+
+.submit{
+  font-family: newfont;
+  font-weight: bold;
+  background-color: grey;
+  border: 3px solid #282828;
+  padding: 12px;
+  margin: 8px;
+  color: white;
+  box-shadow: 5px 5px 20px #605f5f;
+  border-radius:10px;
+}
+
+.submit:hover{
+  opacity: 0.5;
 }
 
 /***** A CHANGER ******/
-h1{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
 /***** LISTE DES SUJETS *****/
 table{
   margin: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   border: 3px solid black;
   background-color: white;
   border-style: solid;
@@ -49,19 +175,26 @@ thead{
   color: black;
 }
 /***** FIN LISTE DES SUJETS *****/
+.centrer_titre{
+  margin-top: 40px;
+  font-family: Devil;
+  text-align: center;
+  color: #cecece;
+}
+
 .centrer{
   text-align: center;
-  color: black;
 }
 
 /**** NEW SUJET ****/
 form{
+  font-family: newfont;
+  font-weight: bold;
   text-align: center;
   margin: auto;
   margin-top: 20px;
   padding: 20px;
   width: 500px;
-  border: 3px solid black;
 }
 
 textarea {
@@ -72,9 +205,10 @@ textarea {
 /**** FIN NEW SUJET ****/
 header{
   color: white;
-  background-color: green;
+  background-image: url(/Image/header.png);
+  background-repeat: no-repeat;
   width: 100%;
-  padding-top: 20px;
+  padding-top:1px;
   text-align:center;
 }
 
@@ -92,8 +226,9 @@ a{
   text-decoration: none;
 }
 
-.Deconnexion, .Connexion, .Enregistrer, .Membre{
+.Membre{
   margin-right:25px;
+  margin-top: 30px;
 }
 article{
   width: 500px;
@@ -116,31 +251,39 @@ article{
 .nav-padding{
   padding: 8px 16px;
   color: white;
-  background-color: black;
+  background-color: #6d6d6d;
   word-spacing: 20px;
+  box-shadow: 0px 2px 5px #727272,5px 5px 20px #494949;
 }
 
+.nav-padding2{
+  padding: 8px 16px;
+  color: white;
+  background-color: #828282;
+  word-spacing: 20px;
+  box-shadow: 0px 0px 5px #727272,0px 0px 20px #494949;
+}
 .margin-top{
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .bar-espace{
-  margin: 40px;
+  margin-right: 40px;
 }
 
 .hidden{
   visibility: hidden;
 }
 
-.Membre{float: right; height: 60px;}
+.Membre{float: right; padding: 10px;}
 
 /*** FOOTER ****/
 footer{
-  position:absolute;
+  position: absolute;
   bottom:0px;
 }
 
-footer p{
+footer div{
   background-color: green;
   text-align: center;
 }
