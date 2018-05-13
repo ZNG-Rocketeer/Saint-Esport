@@ -17,7 +17,7 @@
   ?>
 
   <form class="centrer" name="connexion" action="connect.php" method="post">
-    <fieldset>
+    <fieldset class="box">
       <legend><h2 class="centrer">Connexion</h2></legend>
       <label>
         Pseudo: <br><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
