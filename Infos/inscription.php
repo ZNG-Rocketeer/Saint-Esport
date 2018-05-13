@@ -13,7 +13,7 @@
   <br/>
   <?php include '../pdo_init.php'; ?>
   <article>
-    <h1 > Inscription </h1>
+    <h2> Inscription </h2>
     <p> La lan se déroulera au Palais des Spectables de Saint-Etienne situé
       au 31 Boulevard Jules Janin, 42100 Saint-Étienne.
       <br/>

@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <h1 > Contact </h1>
+  <h2 > Contact </h2>
   <p>
     Contact 1, Contact 2, Contact 3.
   </p>

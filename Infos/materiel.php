@@ -11,7 +11,7 @@
   <br/>
 
   <article>
-    <h1 > Materiel </h1>
+    <h2> Materiel </h2>
     <p>
       Voici la liste de matériel à apporter pour la LAN-Party. Tout oubli de matériel est éliminatoire.
       <br/>

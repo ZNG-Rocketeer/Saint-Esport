@@ -12,6 +12,9 @@ nav{
 section{
 }
 
+h1{
+	text-align: center;
+}
 /***** LISTE DES SUJETS *****/
 table{
 	margin: auto;

@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <h1 > Partenaires </h1>
+  <h2> Partenaires </h2>
   <p>
     Voici les différents partenaires de la lyon esport !
   </p>

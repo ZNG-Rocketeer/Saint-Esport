@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete_infos.php"); ?>
-  <h1 > LAN Party </h1>
+  <h2> LAN Party </h2>
   <p> Venez à l’une des plus grandes LAN Party français où l’ambiance
     et les gens que vous rencontrerez vous ferons passer des moments exceptionnels.<br/>
     Cette année, la Sainté Esport accueillera plus de 5000 participants!<br/>

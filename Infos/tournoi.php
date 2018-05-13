@@ -10,7 +10,7 @@
   <?php include("../Include/entete_infos.php"); ?>
 <br/>
 <article>
-  <h1 > Tournoi </h1>
+  <h2> Tournoi </h2>
     <p> La Sainté Esport accueillera principalement du League of Legends;<br/>
       Mais d'autres petits tournois seront aussi au rendez-vous telle que:<br/>
       <ul>
