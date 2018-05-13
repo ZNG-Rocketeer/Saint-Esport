@@ -13,9 +13,8 @@ section{
 }
 
 h1{
-	text-align: center;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
 }
 /***** LISTE DES SUJETS *****/
 table{
