@@ -18,7 +18,7 @@
   </table>
   <?php if (isset($_SESSION['pseudo'])) {
     echo '<form class="centrer" action="discussion_forum.php?idsuj='.$_GET['idsuj'].'" method="post">
-    <fieldset>
+    <fieldset class="box">
     <legend><h2 class="centrer">Nouveau Commentaire</h2></legend>
     <textarea class="input centrer" rows="4" cols="50" name="post" placeholder="Contenu du post" required="required"></textarea>
 

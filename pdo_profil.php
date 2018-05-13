@@ -25,8 +25,8 @@
   ?>
   <form class="centrer" name="Profil" action="pdo_profil.php" method="post">
 
-    <fieldset>
-      <fieldset>
+    <fieldset class="box">
+      <fieldset class="box">
         <legend><h2 class="centrer">Profil</h2></legend>
         <label>
           Pseudo: <br><input class="input centrer" type="text" name="pseudo" <?php echo 'value="'.$_SESSION['pseudo'].'"';?> required="required">
@@ -38,7 +38,7 @@
         </fieldset>
         <br>
         <br>
-        <fieldset>
+        <fieldset class="box">
           <legend><h2 class="centrer">Modification Mot de Passe </h2></legend>
           <label>
             Mot de passe: <br><input class="input centrer" type="password" name="mdp1" placeholder="Entrez un mot de passe">

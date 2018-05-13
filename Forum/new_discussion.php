@@ -12,7 +12,7 @@
   <?php include("../Include/entete.php"); ?>
 
   <form class="centrer" id="Form" name="new_discussion" action="new_discussion.php" method="post">
-    <fieldset>
+    <fieldset class="box">
       <legend><h2 class="centrer">Nouveau Sujet</h2></legend>
       <label>
         Titre du sujet: <br><input class="input centrer" type="text" name="sujet" placeholder="Entrez le titre du sujet" required="required">
