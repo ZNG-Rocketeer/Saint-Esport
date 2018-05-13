@@ -14,8 +14,8 @@
   <br/>
 
   <p> Bienvenue sur le site de Sainté Esport. </p>
-  <p> Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités. </p>
-
+  <p>
+    Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités.</p>
   <article>
     <!-- AddToAny BEGIN -->
     <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -32,12 +32,12 @@
     a2a_config.linkname = "ZNG-Esport";
     a2a_config.linkurl = "zng-esport.tk:88";
     a2a_config.locale = "fr";
-  </script>
-  <script async src="https://static.addtoany.com/menu/page.js"></script>
-  <!-- AddToAny END -->
-</article>
+    </script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+  </article>
 
-<!-- FOOTER -->
-<?php include("Include/footer.php")?>
+  <!-- FOOTER -->
+  <?php include("Include/footer.php")?>
 </body>
 </html>
