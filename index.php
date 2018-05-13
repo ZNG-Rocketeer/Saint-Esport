@@ -23,7 +23,7 @@
       <p> Partagez notre site ! </p>
       <a class="a2a_button_facebook"></a>
       <a class="a2a_button_twitter"></a>
-      <a class="a2a_button_google_plus"></a>
+      <a class="a2a_button_google_gmail"></a>
       <a class="a2a_button_email"></a>
       <a class="a2a_button_whatsapp"></a>
       <a class="a2a_button_facebook_messenger"></a>
