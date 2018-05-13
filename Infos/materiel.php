@@ -23,12 +23,9 @@
         <li> Clavier </li>
         <li> Casque </li>
         <li> Câble Ethernet RJ-45 </li>
-
       </ul>
-
     </p>
   </article>
-
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>
 </body>

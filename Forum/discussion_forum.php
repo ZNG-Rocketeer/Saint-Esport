@@ -9,7 +9,7 @@
 
 <body>
   <!-- HEADER -->
-  <?php include '../Include/entete.php'; ?>
+  <?php include("../Include/entete.php"); ?>
   <table>
     <?php
     include 'add_post.php';
