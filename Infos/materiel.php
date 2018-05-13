@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +8,9 @@
 </head>
 
 <body>
+  <!-- HEADER -->
   <?php include("../Include/entete_infos.php"); ?>
   <br/>
-
   <article>
     <h2> Materiel </h2>
     <p>
