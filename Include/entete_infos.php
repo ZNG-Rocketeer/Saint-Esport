@@ -3,15 +3,15 @@
   <?php
   if(isset($_SESSION['pseudo'])){
     echo '<div class="Membre">Connecté en tant que : '.$_SESSION['pseudo'].'
-    <br>
-    <a href="/pdo_deco.php">Deconnexion</a>
+    <br/>
+    <a class="Deconnexion" href="/pdo_deco.php">Deconnexion</a>
     </div>';
   }
   else{
     echo '
     <div class="Membre">
     <a class="Enregistrer" href="/inscription.php">S\'inscrire</a>
-    </br>
+    <br/>
     <a class="Connexion" href="/connect.php">Connexion</a>
     </div>
     ';

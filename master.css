@@ -70,9 +70,11 @@ aside{
 a{
 	color: white;
 	text-decoration: none;
-	margin-right: 15px;
 }
 
+.Deconnexion, .Connexion, .Enregistrer{
+	margin-right:25px;
+}
 article{
 	width: 500px;
 	height: 200px;
