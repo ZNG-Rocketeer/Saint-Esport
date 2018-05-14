@@ -88,12 +88,12 @@ textarea {
   font-family: Devil;
   font-size: 2rem;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 12%;
   transform: skew(-10deg);
   float:left;
   text-align: left;
-  padding: 10px;
-  margin: 20px;
+  padding: 0.5%;
+  margin: 1%;
 }
 
 
@@ -104,7 +104,7 @@ textarea {
   background-color:#6d6d6d;
   opacity: 0.8;
   line-height:1.5;
-  border-radius:5px;
+  border-radius: 5px;
   box-shadow: 0px 2px 5px #222222,5px 5px 20px #121212;
   font-weight: bold;
 }
@@ -163,17 +163,23 @@ table{
   margin: auto;
   margin-top: 5px;
   border: 3px solid black;
-  background-color: white;
-  border-style: solid;
+  border-style: hidden;
 }
 
-thead{
-  background-color: green;
+
+td{
+  padding:8px 40px;
+  vertical-align:middle;
+  color: #d6d6d6;
+  background-color:#6d6d6d;
+  opacity: 0.8;
+  line-height:1.5;
+  border-radius:5px;
+  box-shadow: 0px 2px 5px #222222,5px 5px 20px #121212;
+  font-weight: bold;
 }
 
-.sujet{
-  color: black;
-}
+
 /***** FIN LISTE DES SUJETS *****/
 .centrer_titre{
   margin-top: 40px;
@@ -226,10 +232,6 @@ a{
   text-decoration: none;
 }
 
-.Membre{
-  margin-right:25px;
-  margin-top: 30px;
-}
 article{
   width: 500px;
   height: 200px;
@@ -267,15 +269,32 @@ article{
   margin-top: 40px;
 }
 
+.titre_sujet{
+  display: table;
+  padding-right: 200px;
+}
+
+.sujet:hover{
+  opacity: 1;
+  background-color: #b5b5b5;
+}
+
+
+
 .bar-espace{
-  margin-right: 40px;
+  margin-right: 3%;
 }
 
 .hidden{
   visibility: hidden;
 }
 
-.Membre{float: right; padding: 10px;}
+.Membre{
+  float: right;
+  padding: 1%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
 
 /*** FOOTER ****/
 footer{

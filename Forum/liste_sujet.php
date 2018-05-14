@@ -13,8 +13,8 @@ try{
     if($i % 2 == 0)
     {
       echo '
-      <tr style="background-color:#FEFEFE;">
-      <td><a class="sujet" href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
+      <tr>
+      <td class="sujet"><a class="sujet" href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
       </tr>
@@ -23,8 +23,8 @@ try{
     else
     {
       echo '
-      <tr style="background-color: #A9A9A9;">
-      <td><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
+      <tr>
+      <td class="sujet"><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
       </tr>

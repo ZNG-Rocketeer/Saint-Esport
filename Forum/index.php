@@ -12,15 +12,21 @@
   <?php include("../Include/entete.php"); ?>
   <br>
   <div class="centrer"><a class="btn" href="new_discussion.php">Nouveau sujet</a></div>
-  <table>
+  <table class="box">
     <tr>
-      <thead>
-        <th>Titre des sujet</th>
-        <th>Auteur</th>
-        <th>Date</th>
+      <thead class="box">
+        <th class="box titre_sujet">Titre des sujets</th>
+        <th class="box">Auteur</th>
+        <th class="box">Date</th>
       </thead>
     </tr>
-    <?php include 'liste_sujet.php'?>
+    <tr>
+
+    <tbody class="box">
+      <?php include 'liste_sujet.php'?>
+    </tbody>
+  </tr>
   </table>
+  <br>
 </body>
 </html>
