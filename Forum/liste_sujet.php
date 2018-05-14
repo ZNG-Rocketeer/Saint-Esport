@@ -14,7 +14,7 @@ try{
     {
       echo '
       <tr>
-      <td class="sujet"><a class="sujet" href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
+      <td class="sujet"><a href="discussion_forum.php?idsuj='.$result_list[$i]["id_sujet"].'">'.$result_list[$i]["sujet"].'</a></td>
       <td>'.$result_list_user['pseudo'].'</td>
       <td>'.$result_list[$i]["date"].'</td>
       </tr>

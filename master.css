@@ -271,7 +271,7 @@ article{
 
 .titre_sujet{
   display: table;
-  padding-right: 200px;
+  padding-right: 220px;
 }
 
 .sujet:hover{
@@ -294,6 +294,7 @@ article{
   padding: 1%;
   margin-right: 2%;
   margin-top: 2%;
+  width: 20%;
 }
 
 /*** FOOTER ****/
