@@ -28,6 +28,7 @@
     <div class="lien">
       <p> Facebook </p>
     </div>
+  </div>  
 
     <!-- FOOTER -->
     <?php include("../Include/footer.php")?>
