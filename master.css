@@ -137,6 +137,7 @@ textarea {
 
   .lien_part{
     color:black;
+    text-decoration: underline;
   }
 
 .btn:hover{
