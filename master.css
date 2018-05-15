@@ -299,6 +299,7 @@ article{
 
 /*** FOOTER ****/
 footer{
+  display: block;
   padding:0.625rem;
   text-align:center;
   font-size:small;
