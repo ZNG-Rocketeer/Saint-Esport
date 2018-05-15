@@ -16,7 +16,6 @@
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
-  </article>
   <div class="partenaire">
     <img src="../Image/Banniere_Twitch.jpg" class="twitch" alt="Twitch">
     <div class="lien">
@@ -28,8 +27,8 @@
     <div class="lien">
       <p> Facebook </p>
     </div>
-  </div>  
-
+  </div>
+  </article>
     <!-- FOOTER -->
     <?php include("../Include/footer.php")?>
   </body>
