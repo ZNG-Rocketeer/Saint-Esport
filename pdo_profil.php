@@ -52,7 +52,8 @@
 
         <input class="submit centrer" type="submit" name="submit" value="Valider">
       </fieldset>
-
     </form>
+    <!-- FOOTER -->
+    <?php include("Include/footer.php")?>
   </body>
   </html>
