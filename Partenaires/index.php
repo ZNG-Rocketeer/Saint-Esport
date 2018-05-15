@@ -12,7 +12,7 @@
   <?php include("../Include/entete.php"); ?>
   <h2> Partenaires </h2>
   <p>
-    Voici les différents partenaires de la lyon esport !
+    Voici les différents partenaires de la Zanga Esport !
   </p>
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>

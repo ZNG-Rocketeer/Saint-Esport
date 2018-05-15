@@ -220,7 +220,7 @@ header{
 
 aside{
   position: absolute;
-  top: 250px;
+  top: 300px;
   right: 100px;
   border-radius: 45px;
   border: black;
@@ -299,12 +299,9 @@ article{
 
 /*** FOOTER ****/
 footer{
+  font-size: 10px;
   position: absolute;
   bottom:0px;
 }
 
-footer div{
-  background-color: green;
-  text-align: center;
-}
 /*** FIN FOOTER ****/

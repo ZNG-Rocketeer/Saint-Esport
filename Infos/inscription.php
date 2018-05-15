@@ -1,5 +1,4 @@
 <!-- INTERDIT D'AFFICHER SI UTILISATEUR PAS CONNECTE -->
-
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html>
@@ -15,10 +14,11 @@
   <br/>
   <article>
     <h2> Inscription </h2>
-    <p> La lan se déroulera au Palais des Spectables de Saint-Etienne situé
-      au 31 Boulevard Jules Janin, 42100 Saint-Étienne.
+    <p> Pour pouvoir participer à cette lan, vous devez avoir une team de 5 personnes et vous inscrire
+      pour 25 euros.
+      Après validation du paiement, vous recevrez un email confirmant votre inscription à la Zanga Esport.
       <br/>
-      Elle aura lieu du <strong>Vendredi18 Mai</strong> 18h au <strong>Lundi 21 Mai</strong> 14h<br/>
+      Bonne chance !
     </p>
   </article>
   <aside>

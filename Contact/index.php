@@ -10,10 +10,15 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <h2 > Contact </h2>
-  <p>
-    Contact 1, Contact 2, Contact 3.
-  </p>
+  <article>
+    <h2>Contact</h2>
+    <p>
+      Si vous avez des questions concernant l'institution Zanga ou des questions en rapport avec le déroulement de la lan,
+      visitez d'abord cette partie du site et si vous ne trouvez pas réponse, envoyez un email à : Zanga@Esport.fr.
+      <br/>
+      Nous nous efforcerons de répondre dans les plus bref délais.
+    </p>
+  </article>
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>
 </body>

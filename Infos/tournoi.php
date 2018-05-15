@@ -9,11 +9,11 @@
 
 <body>
   <?php include("../Include/entete_infos.php"); ?>
-<br/>
-<article>
-  <h2> Tournoi </h2>
+  <br/>
+  <article>
+    <h2> Tournoi </h2>
     <p> La Sainté Esport accueillera principalement du League of Legends;<br/>
-      Mais d'autres petits tournois seront aussi au rendez-vous telle que:<br/>
+      Mais d'autres petits tournois seront aussi au rendez-vous tels que:<br/>
       <ul>
         <li>
           Fortnite
@@ -24,17 +24,12 @@
         <li>
           Hearthstone
         </li>
-      <br/>
-      Elle aura lieu du <strong>Vendredi18 Mai</strong> 18h au <strong>Lundi 21 Mai</strong> 14h<br/>
-    </p>
-  </article>
+        <br/>
+        Il y en aura donc pour tout les goûts!
+      </p>
+    </article>
 
-  <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
-</body>
-
-
-
-
-
-</html>
+    <!-- FOOTER -->
+    <?php include("../Include/footer.php")?>
+  </body>
+  </html>
