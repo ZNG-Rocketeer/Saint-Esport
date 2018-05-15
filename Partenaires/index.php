@@ -19,13 +19,13 @@
     <div class="partenaire">
       <img src="../Image/Banniere_Twitch.jpg" class="twitch" alt="Twitch">
       <div class="lien">
-        <a href="" >Facebook</a>
+        <a class="lien_part" href="https://www.twitch.tv/ihfisk" >Facebook</a>
       </div>
     </div>
     <div class="partenaire">
       <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
-      <div class="lien">
-        <a href="">Facebook</a>
+      <div class="lien_part">
+        <a href="https://www.facebook.com/ZangaEsport/">Facebook</a>
       </div>
     </div>
   </article>
