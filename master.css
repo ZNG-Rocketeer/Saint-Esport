@@ -299,23 +299,9 @@ article{
 
 /*** FOOTER ****/
 
-/**footer{
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  font-size: small;
-}
-**/
 footer{
   padding:0.625rem;
-  background-color:#002f46;
-  text-align:center
-}
-
-.legald{
-  padding:0.625rem;
-  background-color:#002f46;
-  text-align:center
+  text-align:center;
+  font-size:small;
 }
 /*** FIN FOOTER ****/

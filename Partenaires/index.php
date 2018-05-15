@@ -20,5 +20,4 @@
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>
 </body>
-
 </html>
