@@ -10,6 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete_infos.php"); ?>
+  <br/>
   <article>
     <h2> LAN Party </h2>
     <p> Venez à l’une des plus grandes LAN Party français où l’ambiance

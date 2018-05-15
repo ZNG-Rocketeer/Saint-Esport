@@ -15,7 +15,7 @@
   <article>
     <h2> Inscription </h2>
     <p> Pour pouvoir participer à cette lan, vous devez avoir une team de 5 personnes et vous inscrire
-      pour 25 euros.
+      pour 25 euros.<br/>
       Après validation du paiement, vous recevrez un email confirmant votre inscription à la Zanga Esport.
       <br/>
       Bonne chance !
