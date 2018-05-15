@@ -23,7 +23,7 @@
 	</div>
     </div>
     <div class="partenaire">
-      <img src="../Image/Banniere_Zng.jpg" class="zng" alt="Zanga">
+      <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
       <div class="lien">
 	  <p> Facebook </p>
 	</div>
