@@ -17,7 +17,7 @@
   if (!(isset($_SESSION['pseudo']))) {
     echo '
     <h3 class="centrer">Vous devez être connecté
-    pour voir cette page</h3>';
+    pour accéder à cette page.</h3>';
   }
   else{
     echo '
