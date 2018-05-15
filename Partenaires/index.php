@@ -16,20 +16,20 @@
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
-  <div class="partenaire">
-    <img src="../Image/Banniere_Twitch.jpg" class="twitch" alt="Twitch">
-    <div class="lien">
-      <p> Facebook </p>
+    <div class="partenaire">
+      <img src="../Image/Banniere_Twitch.jpg" class="twitch" alt="Twitch">
+      <div class="lien">
+        <a href="" >Facebook</a>
+      </div>
     </div>
-  </div>
-  <div class="partenaire">
-    <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
-    <div class="lien">
-      <p> Facebook </p>
+    <div class="partenaire">
+      <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
+      <div class="lien">
+        <a href="">Facebook</a>
+      </div>
     </div>
-  </div>
   </article>
-    <!-- FOOTER -->
-    <?php include("../Include/footer.php")?>
-  </body>
-  </html>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
+</body>
+</html>
