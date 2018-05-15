@@ -299,12 +299,8 @@ article{
 
 /*** FOOTER ****/
 footer{
-  font-size: 10px;
-  position:absolute;
-  bottom:0px;
-  margin:0;
-  padding:0;
-  text-align: center;
+  font-size: small;
+  height: 100px;
 }
 
 /*** FIN FOOTER ****/
