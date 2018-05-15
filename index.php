@@ -15,7 +15,7 @@
 
   <p> Bienvenue sur le site de Sainté Esport. </p>
   <p>
-    Vous trouverez ci-dessous toutes les informations nécessaires au bon déroulement d'une lan ainsi que de ses modalités.
+    Vous trouverez ici toutes les informations nécessaires au bon déroulement de la lan ainsi que de ses modalités.
   </p>
   <br/>
   <article>
@@ -38,6 +38,7 @@
     <script async src="https://static.addtoany.com/menu/page.js"></script>
     <!-- AddToAny END -->
   </article>
-
+  <br/>
+  <?php include("../Include/footer.php")?>
 </body>
 </html>

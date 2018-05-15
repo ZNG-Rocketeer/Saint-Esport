@@ -10,6 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
+  <br/>
   <article>
     <h2>Contact</h2>
     <p>
