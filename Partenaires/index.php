@@ -15,7 +15,7 @@
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
-  </articl  e>
+  </article>
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>
 </body>

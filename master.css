@@ -301,7 +301,7 @@ article{
 footer{
   font-size: small;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   right: 0;
 }
