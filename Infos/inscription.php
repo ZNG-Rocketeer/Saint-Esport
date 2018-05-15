@@ -14,12 +14,13 @@
   <br/>
   <?php
   include '../pdo_init.php';
-  if (isset($_SESSION['pseudo'])) {
-    echo ' <h3 class="centrer">Vous devez être connecté
+  if (!(isset($_SESSION['pseudo']))) {
+    echo '
+    <h3 class="centrer">Vous devez être connecté
     pour voir cette page</h3>';
   }
   else{
-    echo'
+    echo '
     <article>
     <h2> Inscription </h2>
     <p> Pour pouvoir participer à cette lan, vous devez avoir une team de 5 personnes et vous inscrire
