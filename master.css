@@ -303,4 +303,8 @@ footer{
   text-align:center;
   font-size:small;
 }
+
+footer+table{
+  vertical-align: bottom;
+}
 /*** FIN FOOTER ****/
