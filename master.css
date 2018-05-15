@@ -300,7 +300,8 @@ article{
 /*** FOOTER ****/
 
 footer{
-  bottom:0;
+  position:absolute;
+  bottom:0px;
   padding:0.625rem;
   text-align:center;
   font-size:small;
