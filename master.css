@@ -299,8 +299,6 @@ article{
 
 /*** FOOTER ****/
 footer{
-  box-sizing: border-box;
-  display: block;
   padding:0.625rem;
   text-align:center;
   font-size:small;

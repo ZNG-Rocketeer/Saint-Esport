@@ -16,6 +16,9 @@
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
+    <div class="portfolio" >
+      <img src="../Image/Banniere_twitch.jpg" class="twitch" alt="Twitch">
+    </div>
   </article>
   <!-- FOOTER -->
   <?php include("../Include/footer.php")?>
