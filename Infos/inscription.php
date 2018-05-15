@@ -12,7 +12,10 @@
   <!-- HEADER -->
   <?php include("../Include/entete_infos.php"); ?>
   <br/>
-  <?php if (isset($_SESSION['pseudo'])) {
+
+  <?php
+  include '../pdo_init.php';
+  if (isset($_SESSION['pseudo'])) {
     echo ' <h3 class="centrer">Vous devez être connecté
     pour voir cette page</h3>'
   }
