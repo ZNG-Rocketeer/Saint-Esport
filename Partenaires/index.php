@@ -24,8 +24,8 @@
     </div>
     <div class="partenaire">
       <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
-      <div class="lien_part">
-        <a href="https://www.facebook.com/ZangaEsport/">Facebook</a>
+      <div class="lien">
+        <a class="lien_part" href="https://www.facebook.com/ZangaEsport/">Facebook</a>
       </div>
     </div>
   </article>
