@@ -302,6 +302,8 @@ footer{
   font-size: 10px;
   position: absolute;
   bottom:0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*** FIN FOOTER ****/
