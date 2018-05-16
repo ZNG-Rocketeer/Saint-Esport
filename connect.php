@@ -31,6 +31,6 @@
     </fieldset>
   </form>
   <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
+  <?php include("Include/footer.php")?>
 </body>
 </html>
