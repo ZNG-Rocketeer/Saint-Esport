@@ -25,13 +25,13 @@
         <li>
           Hearthstone
         </li>
-        <br/>
-        Il y en aura donc pour tout les goûts!
-      </p>
-    </div>
+      </ul>
+      Il y en aura donc pour tout les goûts!
+    </p>
+  </div>
 
 
-    <!-- FOOTER -->
-    <?php assets("../assets/footer.php")?>
-  </body>
-  </html>
+  <!-- FOOTER -->
+  <?php assets("../assets/footer.php")?>
+</body>
+</html>
