@@ -20,15 +20,17 @@
     <fieldset class="box">
       <legend><h2 class="centrer">Connexion</h2></legend>
       <label>
-        Pseudo: <br><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
+        Pseudo: <br/><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
       </label>
       <br/>
       <label>
-        Mot de passe: <br><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
+        Mot de passe: <br/><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
       </label>
       <br/>
       <input class="submit centrer" type="submit" name="submit" value="Connexion">
     </fieldset>
   </form>
+  <!-- FOOTER -->
+  <?php include("Include/footer.php")?>
 </body>
 </html>

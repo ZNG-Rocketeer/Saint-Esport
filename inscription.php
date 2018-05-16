@@ -11,7 +11,7 @@
   <!-- HEADER -->
   <?php include("assets/entete.php");
   ?>
-  <br>
+  <br/>
   <?php
   include 'assets/pdo_init.php';
   include 'assets/pdo_new_user.php';
