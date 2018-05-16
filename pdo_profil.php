@@ -29,23 +29,23 @@
       <fieldset class="box">
         <legend><h2 class="centrer">Profil</h2></legend>
         <label>
-          Pseudo: <br><input class="input centrer" type="text" name="pseudo" <?php echo 'value="'.$_SESSION['pseudo'].'"';?> required="required">
+          Pseudo: <br/><input class="input centrer" type="text" name="pseudo" <?php echo 'value="'.$_SESSION['pseudo'].'"';?> required="required">
         </label>
-        <br>
+        <br/>
         <label>
-          Adresse Mail: <br><input class="input centrer" type="email" name="mail" <?php echo 'value="'.$_SESSION['mail'].'"';?> required="required" readonly>
-          <br>
+          Adresse Mail: <br/><input class="input centrer" type="email" name="mail" <?php echo 'value="'.$_SESSION['mail'].'"';?> required="required" readonly>
+          <br/>
         </fieldset>
-        <br>
-        <br>
+        <br/>
+        <br/>
         <fieldset class="box">
           <legend><h2 class="centrer">Modification Mot de Passe </h2></legend>
           <label>
-            Mot de passe: <br><input class="input centrer" type="password" name="mdp1" placeholder="Entrez un mot de passe">
+            Mot de passe: <br/><input class="input centrer" type="password" name="mdp1" placeholder="Entrez un mot de passe">
           </label>
-          <br>
+          <br/>
           <label>
-            Confirmation: <br><input class="input centrer" type="password" name="mdp2" placeholder="Entrez le même mot de passe">
+            Confirmation: <br/><input class="input centrer" type="password" name="mdp2" placeholder="Entrez le même mot de passe">
           </label>
           <?php include 'pdo_modif.php'; ?>
         </fieldset>

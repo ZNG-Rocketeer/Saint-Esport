@@ -15,7 +15,7 @@
     <fieldset class="box">
       <legend><h2 class="centrer">Nouveau Sujet</h2></legend>
       <label>
-        Titre du sujet: <br><input class="input centrer" type="text" name="sujet" placeholder="Entrez le titre du sujet" required="required">
+        Titre du sujet: <br/><input class="input centrer" type="text" name="sujet" placeholder="Entrez le titre du sujet" required="required">
       </label>
       <br/>
       <label>

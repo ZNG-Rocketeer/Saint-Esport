@@ -10,7 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
-  <br>
+  <br/>
 
   <?php
   if(!isset($_SESSION['pseudo'])){
