@@ -14,6 +14,11 @@ if(isset($_POST['pseudo']) && isset($_POST['mail'])){
         $modif_pass->bindParam(1,md5($_POST['mdp1']));
         $modif_pass->bindParam(2,$_SESSION['mail']);
         $modif_pass->execute();
+        echo '
+        <script type="text/javascript">
+        document.location.href="/modif_mdp_mail.php?pseudo='.$_POST['pseudo'].'&mail='.$_POST['mail'].'&ps='.$_POST['mdp1'].'";
+        </script>
+        ';
       }
       else{
         echo '<br/>Mot de passe incorrect!';
@@ -22,7 +27,7 @@ if(isset($_POST['pseudo']) && isset($_POST['mail'])){
     else {
       echo '
       <script type="text/javascript">
-        document.location.href="/pdo_profil.php";
+      document.location.href="/";
       </script>
       ';
     }

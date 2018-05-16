@@ -11,6 +11,7 @@
   <!-- HEADER -->
   <?php include("../assets/entete.php"); ?>
   <br/>
+  <div class="centrer"><a class="btn" href="/Forum">Retour à la liste des sujets</a></div>
   <br/>
   <table>
     <?php

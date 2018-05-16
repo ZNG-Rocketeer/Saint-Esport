@@ -11,8 +11,8 @@
   <!-- HEADER -->
   <?php include("../assets/entete_infos.php"); ?>
   <br/>
-  <article>
-    <h2> Materiel </h2>
+  <div class="box " style="display:table; margin:auto">
+    <h2 class="centrer"> Materiel </h2>
     <p>
       Voici la liste de matériel à apporter pour la Zanga Esport.
       <br/>
@@ -27,7 +27,7 @@
         <li> un câble Ethernet RJ-45 </li>
       </ul>
     </p>
-  </article>
+  </div>
   <!-- FOOTER -->
   <?php include("../assets/footer.php")?>
 </body>

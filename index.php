@@ -12,15 +12,17 @@
   <?php include("assets/entete.php"); ?>
 
   <br/>
-  <p> Bienvenue sur le site de Sainté Esport. </p>
-  <p>
+  <div class="centrer box " style="display:table; margin:auto">
+    <h2 class="centrer ">Bienvenue sur le site de ZNG-Esport.</h2>
     Vous trouverez ici toutes les informations nécessaires au bon déroulement de la lan ainsi que de ses modalités.
-  </p>
+  </div>
   <br/>
-  <article>
+  <section class="box centrer " style="display:table; margin:auto">
     <!-- AddToAny BEGIN -->
-    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-      <p> N'hésitez pas à partager un maximum notre site ! </p>
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style centrer">
+      <h3 class="centrer">
+        N'hésitez pas à partager un maximum notre site !
+      </h3>
       <a class="a2a_button_facebook"></a>
       <a class="a2a_button_twitter"></a>
       <a class="a2a_button_google_gmail"></a>
@@ -36,7 +38,7 @@
     </script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
     <!-- AddToAny END -->
-  </article>
+  </section>
   <br/>
   <?php include("assets/footer.php")?>
 </body>

@@ -11,24 +11,24 @@
   <!-- HEADER -->
   <?php include("../assets/entete.php"); ?>
   <br/>
-  <article>
+  <div class="box centrer" style="display:table; margin:auto">
     <h2> Partenaires </h2>
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
-    <div class="partenaire">
+    <div class="partenaire box">
       <img src="../Image/Banniere_Twitch.jpg" class="twitch" alt="Twitch">
       <div class="lien">
         <a class="lien_part" href="https://www.twitch.tv/ihfisk" >Facebook</a>
       </div>
     </div>
-    <div class="partenaire">
+    <div class="partenaire box">
       <img src="../Image/Banniere_Zng.jpeg" class="zng" alt="Zanga">
       <div class="lien">
         <a class="lien_part" href="https://www.facebook.com/ZangaEsport/">Facebook</a>
       </div>
     </div>
-  </article>
+  </div>
   <!-- FOOTER -->
   <?php include("../assets/footer.php")?>
 </body>

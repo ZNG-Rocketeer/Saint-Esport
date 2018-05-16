@@ -25,18 +25,16 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
   background-color: #A9A9A9; /** Gris **/
 }
 
-p{
+
+div{
   font-family: HelveticaNeue;
-  padding: 0;
-  background-color: #A9A9A9; /** Gris **/
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   margin-left: auto;
   margin-right: auto;
   font-family: newfont;
@@ -84,6 +82,11 @@ textarea {
   resize: vertical;
 }
 
+.section {
+  margin: auto;
+  display: table;
+}
+
 .logo {
   font-family: Devil;
   font-size: 2rem;
@@ -122,23 +125,23 @@ textarea {
 }
 
 .partenaire {
-	float: left;
-	margin: 10px 10px 10px 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	}
+  float: left;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  .lien {
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	}
+.lien {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-  .lien_part{
-    color:black;
-    text-decoration: underline;
-  }
+.lien_part{
+  color:black;
+  text-decoration: underline;
+}
 
 .btn:hover{
   opacity: 1;
@@ -299,6 +302,7 @@ article{
 
 .sujet:hover{
   opacity: 1;
+  cursor: pointer;
   background-color: #b5b5b5;
 }
 

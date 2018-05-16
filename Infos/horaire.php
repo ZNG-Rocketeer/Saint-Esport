@@ -11,7 +11,7 @@
   <?php include("../assets/entete_infos.php"); ?>
   <br/>
 
-  <article>
+  <section class="box centrer" style="display:table; margin:auto">
     <h2> Horaire </h2>
     <p> La Zanga Esport se tiendra se déroulera au Palais des Spectacles de Saint-Etienne situé
       au<br/>31 Boulevard Jules Janin, 42100 Saint-Étienne.
@@ -19,7 +19,7 @@
       Elle aura lieu du <strong>Vendredi18 Mai</strong> 18h au <strong>Lundi 21 Mai</strong> 14h.
       <br/>
     </p>
-  </article>
+  </section>
 
   <?php include("../assets/footer.php")?>
 </body>

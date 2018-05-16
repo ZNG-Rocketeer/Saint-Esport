@@ -18,7 +18,7 @@ if(isset($_GET['idsuj'])){
     <td>'.$result_list_user['pseudo'].'</td>
     <td>'.$result_discuss[$i]["date"].'</td>';
     if(($_SESSION['pseudo']==$result_list_user['pseudo'] && $result_discuss[$i]["supprimable"]) || $_SESSION['niveau']==0){
-      echo '<td><a href="delete_post.php?idpost='.$result_discuss[$i]["id_post"].'&idsuj='.$_GET['idsuj'].'">supprimer</a></td>';
+      echo '<td class="sujet" onclick="document.location.href=\'delete_post.php?idpost='.$result_discuss[$i]["id_post"].'&idsuj='.$_GET['idsuj'].'\'"><a href="delete_post.php?idpost='.$result_discuss[$i]["id_post"].'&idsuj='.$_GET['idsuj'].'">supprimer</a></td>';
     }
     echo '</tr>';
   }
