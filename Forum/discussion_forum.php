@@ -11,6 +11,7 @@
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
   <br/>
+  <a href="../Forum" class="centrer">Retour liste des sujets</a> 
   <br/>
   <table>
     <?php
