@@ -15,19 +15,18 @@
   <div class="box " style="display:table; margin:auto">
     <h2 class="centrer"> Materiel </h2>
     <p>
-      Voici la liste de matériel à apporter pour la Zanga Esport.
-      <br/>
+      Voici la liste de matériel à apporter pour la Zanga Esport.<br/>
       Tout oubli de matériel est éliminatoire alors soyez bien préparé ;).
       <br/>
-      <ul>
-        <li> Un ordinateur Portable ou une tour + un PC </li>
-        <li> une multiprise </li>
-        <li> une souris </li>
-        <li> un clavier </li>
-        <li> un casque </li>
-        <li> un câble Ethernet RJ-45 </li>
-      </ul>
     </p>
+    <ul>
+      <li> Un ordinateur Portable ou une tour + un PC </li>
+      <li> une multiprise </li>
+      <li> une souris </li>
+      <li> un clavier </li>
+      <li> un casque </li>
+      <li> un câble Ethernet RJ-45 </li>
+    </ul>
   </div>
   <!-- FOOTER -->
   <?php include("../assets/footer.php")?>
