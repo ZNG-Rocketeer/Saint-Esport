@@ -15,6 +15,7 @@
 
   <?php
   include 'assets/pdo_log.php';
+  include 'mdp_oublie.php';
   ?>
   <?php
   if(isset($_POST['mail'])){
