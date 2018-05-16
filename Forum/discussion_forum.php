@@ -10,8 +10,8 @@
 <body>
   <!-- HEADER -->
   <?php include("../assets/entete.php"); ?>
-  <br>
-  <br>
+  <br/>
+  <br/>
   <table>
     <?php
     include 'add_post.php';

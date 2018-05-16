@@ -16,7 +16,7 @@ if(isset($_POST['pseudo']) && isset($_POST['mail'])){
         $modif_pass->execute();
       }
       else{
-        echo '<br>Mot de passe incorrect!';
+        echo '<br/>Mot de passe incorrect!';
       }
     }
     else {

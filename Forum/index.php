@@ -10,8 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("../assets/entete.php"); ?>
-  <br>
-
+  <br/>
   <?php
   if(!isset($_SESSION['pseudo'])){
     echo '<h2 class="centrer">Veuillez vous connecter!!</h2>';

@@ -26,7 +26,7 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Inscription à ZNG-ESPORT';
-    $mail->Body    = 'Vous venez de vous inscrire à <b>ZNG-ESPORT</b> <br> Voici votre pseudo: '.$_GET['pseudo'].'<br> Et votre mot de passe: '.$_GET['ps'];
+    $mail->Body    = 'Vous venez de vous inscrire à <b>ZNG-ESPORT</b> <br/> Voici votre pseudo: '.$_GET['pseudo'].'<br/> Et votre mot de passe: '.$_GET['ps'];
     $mail->AltBody = 'Vous venez de vous inscrire à ZNG-ESPORT. Voici votre pseudo: '.$_GET['pseudo'];
 
     $mail->send();
