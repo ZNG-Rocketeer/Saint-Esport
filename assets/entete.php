@@ -7,7 +7,7 @@ echo '
   if(isset($_SESSION['pseudo'])){
     echo '<div class="Membre box">Connecté en tant que : '.$_SESSION['pseudo'].'
     <br/>
-    <a class="btn bar-espace" href="/assets/pdo_profil.php">Profil</a>
+    <a class="btn bar-espace" href="/pdo_profil.php">Profil</a>
     <a class="btn " href="/assets/pdo_deco.php">Déconnexion</a>
     </div>';
   }
