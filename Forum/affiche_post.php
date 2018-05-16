@@ -14,7 +14,7 @@ if(isset($_GET['idsuj'])){
     $result_list_user=$liste_user->fetch();
     echo '
     <tr>
-    <td><textarea class="box" cols=70 rows=5 readonly>'.$result_discuss[$i]["contenu"].'</textarea></a></td>
+    <td><textarea class="box" cols=70 rows=5 readonly>'.$result_discuss[$i]["contenu"].'</textarea></td>
     <td>'.$result_list_user['pseudo'].'</td>
     <td>'.$result_discuss[$i]["date"].'</td>';
     if(($_SESSION['pseudo']==$result_list_user['pseudo'] && $result_discuss[$i]["supprimable"]) || $_SESSION['niveau']==0){
