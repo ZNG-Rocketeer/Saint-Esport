@@ -1,7 +1,7 @@
 <?php
 echo '
 <header>
-<link rel="icon" type="image" href="logo.png">
+<link rel="icon" type="image" href="Emote_Scout_Approve.png">
 <a href="../index.php"><h1 class="logo">ZNG</h1></a>
 ';
 if(isset($_SESSION['pseudo'])){
