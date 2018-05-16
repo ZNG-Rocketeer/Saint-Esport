@@ -17,6 +17,7 @@
         <th class="box titre_sujet">Pseudo</th>
         <th class="box">mail</th>
         <th class="box">Date</th>
+        <th class="box"><th>
       </tr>
     </thead>
 
