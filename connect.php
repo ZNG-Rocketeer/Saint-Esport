@@ -43,7 +43,7 @@
     Mot de passe: <br/><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
     </label>
     <br/>
-    <div class="box" onclick="document.location.href=\'connect.php?mdpoublie=1\'">Mot de passe oublié?</div>
+    <div class="box sujet" style="display:table; margin:auto" onclick="document.location.href=\'connect.php?mdpoublie=1\'">Mot de passe oublié?</div>
     <br/>
     <input class="submit centrer" type="submit" name="submit" value="Connexion">
     </fieldset>
