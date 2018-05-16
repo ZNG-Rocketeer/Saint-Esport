@@ -20,7 +20,7 @@ try {
 
     //Recipients
     $mail->setFrom('zng.contact@gmail.com','ZNG SUPPORT');
-    $mail->addAddress($_GET['mail'], $_GET['pseudo']);     // Add a recipient
+    $mail->addAddress($_GET['mail'], 'Unknown');     // Add a recipient
     $mail->addReplyTo('zng.contact@gmail.com','ZNG SUPPORT');
 
     //Content

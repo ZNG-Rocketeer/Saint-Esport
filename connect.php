@@ -16,23 +16,47 @@
   <?php
   include 'assets/pdo_log.php';
   ?>
-
-  <form class="centrer" name="connexion" action="connect.php" method="post">
+  <?php
+  if(isset($_GET['mdpoublie'])){
+    echo'
+    <form class="centrer" name="oubli" action="connect.php" method="post">
     <fieldset class="box">
-      <legend><h2 class="centrer">Connexion</h2></legend>
-      <label>
-        Pseudo: <br/><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
-      </label>
-      <br/>
-      <label>
-        Mot de passe: <br/><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
-      </label>
-      <br/>
-      <a class="box">Mot de passe oublié</a>
-      <br/>
-      <input class="submit centrer" type="submit" name="submit" value="Connexion">
+    <legend><h2 class="centrer">Mot de passe Oublié</h2></legend>
+    <label>
+    Mail: <br/><input class="input centrer" type="text" name="mail"  placeholder="Entrez votre adresse mail" required="required">
+    </label>
+    <br/>
+    <input class="submit centrer" type="submit" name="submit" value="Soumettre">
     </fieldset>
-  </form>
+    </form>';
+  }
+  else{
+    echo'
+    <form class="centrer" name="connexion" action="connect.php" method="post">
+    <fieldset class="box">
+    <legend><h2 class="centrer">Connexion</h2></legend>
+    <label>
+    Pseudo: <br/><input class="input centrer" type="text" name="pseudo"  placeholder="Entrez votre Pseudo" required="required">
+    </label>
+    <br/>
+    <label>
+    Mot de passe: <br/><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
+    </label>
+    <br/>
+    <div class="box" onclick="document.location.href=\'connect.php?mdpoublie=1\'">Mot de passe oublié?</div>
+    <br/>
+    <input class="submit centrer" type="submit" name="submit" value="Connexion">
+    </fieldset>
+    </form>';
+  }
+  if(isset($_POST['mail'])){
+    echo '
+      <script type="text/javascript">
+      document.location.href="/mdp_oublie.php?mail="'.$_POST['mail'].';
+      </script>
+    ';
+  }
+  ?>
   <!-- FOOTER -->
   <?php include("Include/footer.php")?>
 </body>
