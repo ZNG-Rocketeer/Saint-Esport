@@ -10,10 +10,10 @@
 
 <body>
   <!-- HEADER -->
-  <?php include("../Include/entete_infos.php"); ?>
+  <?php include("../assets/entete_infos.php"); ?>
   <br/>
   <?php
-  include '../pdo_init.php';
+  include '../assets/pdo_init.php';
   if (!(isset($_SESSION['pseudo']))) {
     echo '
     <h3 class="centrer">Vous devez être connecté
@@ -41,7 +41,7 @@
     }
     ?>
     <!-- FOOTER -->
-    <?php include("../Include/footer.php")?>
+    <?php include("../assets/footer.php")?>
 
     </body>
 

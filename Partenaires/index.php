@@ -9,7 +9,7 @@
 
 <body>
   <!-- HEADER -->
-  <?php include("../Include/entete.php"); ?>
+  <?php include("../assets/entete.php"); ?>
   <br/>
   <article>
     <h2> Partenaires </h2>
@@ -30,6 +30,6 @@
     </div>
   </article>
   <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
+  <?php include("../assets/footer.php")?>
 </body>
 </html>

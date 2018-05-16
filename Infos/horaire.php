@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <?php include("../Include/entete_infos.php"); ?>
+  <?php include("../assets/entete_infos.php"); ?>
   <br/>
 
   <article>
@@ -21,7 +21,7 @@
     </p>
   </article>
 
-  <?php include("../Include/footer.php")?>
+  <?php include("../assets/footer.php")?>
 </body>
 
 

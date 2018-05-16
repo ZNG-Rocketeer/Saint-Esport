@@ -9,7 +9,7 @@
 
 <body>
   <!-- HEADER -->
-  <?php include("../Include/entete.php"); ?>
+  <?php include("../assets/entete.php"); ?>
 
   <form class="centrer" id="Form" name="new_discussion" action="new_discussion.php" method="post">
     <fieldset class="box">
@@ -30,6 +30,6 @@
     </fieldset>
   </form>
   <!-- FOOTER -->
-  <?php include("../Include/footer.php")?>
+  <?php include("../assets/footer.php")?>
 </body>
 </html>

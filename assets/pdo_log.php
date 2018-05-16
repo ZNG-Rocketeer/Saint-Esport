@@ -7,9 +7,11 @@ if(isset($_POST['mdp']) && isset($_POST['pseudo'])){
   $sel->bindParam(2,md5($_POST['mdp']));
   $sel->execute();
   $res = $sel->fetchAll();
-  $_SESSION['pseudo']=$res[0][0];
-  $_SESSION['mail']=$res[0][1];
-  $_SESSION['mdp']=$res[0][2];
+  $_SESSION['pseudo']=$res[0]['pseudo'];
+  $_SESSION['mail']=$res[0]['mail'];
+  $_SESSION['mdp']=$res[0]['mdp'];
+  $_SESSION['niveau']=$res[0]['niveau_importance'];
+
   if($_SESSION['pseudo']==$_POST['pseudo'] && $_SESSION['mdp']==md5($_POST['mdp'])){
     echo '
     <!DOCTYPE html>
@@ -22,7 +24,7 @@ if(isset($_POST['mdp']) && isset($_POST['pseudo'])){
     <script type="text/javascript">
     document.location.href="/";
     </script>
-    <?php include("Include/footer.php")?>
+    <?php include("footer.php")?>
     </body>
     </html>
     ';

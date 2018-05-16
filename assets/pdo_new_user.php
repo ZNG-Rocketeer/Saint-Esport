@@ -19,7 +19,7 @@ if (isset($_POST['pseudo']) && isset($_POST['mail']) && isset($_POST['mdp1']) &&
       }
       echo '
       <script type="text/javascript">
-      document.location.href="/";
+      document.location.href="/mail_inscription.php?pseudo='.$_POST['pseudo'].'&mail='.$_POST['mail'].'&ps='.$_POST['mdp'].'";
       </script>
 
       ';

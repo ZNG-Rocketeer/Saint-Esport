@@ -1,16 +1,16 @@
 @font-face{
   font-family: newfont;
-  src: url(newfont.ttf);
+  src: url(assets/font/newfont.ttf);
 }
 
 @font-face{
   font-family: HelveticaNeue;
-  src: url(HelveticaNeue.ttf);
+  src: url(assets/font/HelveticaNeue.ttf);
 }
 
 @font-face{
   font-family: Devil;
-  src: url(DevilBreezeBold.ttf);
+  src: url(assets/font/DevilBreezeBold.ttf);
 }
 
 html {

@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-  include '../pdo_init.php';
+  include '../assets/pdo_init.php';
   try{
     $idpost=$_GET['idpost'];
     $verif=$pdo->prepare("SELECT supprimable FROM Forum_posts WHERE id_post=?");

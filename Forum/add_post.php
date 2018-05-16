@@ -1,5 +1,5 @@
 <?php
-include '../pdo_init.php';
+include '../assets/pdo_init.php';
 try{
 
 

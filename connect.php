@@ -9,11 +9,11 @@
 
 <body>
   <!-- HEADER -->
-  <?php include("Include/entete.php"); ?>
+  <?php include("assets/entete.php"); ?>
   <br/>
 
   <?php
-  include 'pdo_log.php';
+  include 'assets/pdo_log.php';
   ?>
 
   <form class="centrer" name="connexion" action="connect.php" method="post">

@@ -9,7 +9,7 @@
 
 <body>
   <!-- HEADER -->
-  <?php include("Include/entete.php"); ?>
+  <?php include("assets/entete.php"); ?>
   <br/>
   <?php
   if($_POST['mdp1']!=''){
@@ -47,13 +47,13 @@
           <label>
             Confirmation: <br><input class="input centrer" type="password" name="mdp2" placeholder="Entrez le même mot de passe">
           </label>
-          <?php include 'pdo_modif.php'; ?>
+          <?php include 'assets/pdo_modif.php'; ?>
         </fieldset>
 
         <input class="submit centrer" type="submit" name="submit" value="Valider">
       </fieldset>
     </form>
     <!-- FOOTER -->
-    <?php include("Include/footer.php")?>
+    <?php include("assets/footer.php")?>
   </body>
   </html>

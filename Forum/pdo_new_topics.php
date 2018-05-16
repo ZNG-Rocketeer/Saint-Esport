@@ -1,5 +1,5 @@
 <?php
-include '../pdo_init.php';
+include '../assets/pdo_init.php';
 /**echo $_SESSION['mail'];**/ /** Pas besoin de mettre le mail **/
 if (isset($_POST['sujet']) && isset($_POST['post'])) {
   try{
