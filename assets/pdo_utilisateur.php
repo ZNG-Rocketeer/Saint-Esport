@@ -21,7 +21,6 @@
     </thead>
 
       <tbody class="box">
-        <tr>
 
         <?php
         include "pdo_init.php";
@@ -49,7 +48,6 @@
           }
         }
         ?>
-      </tr>
       </tbody>
   </table>
   <br/>
