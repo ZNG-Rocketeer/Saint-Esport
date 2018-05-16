@@ -20,11 +20,18 @@
   if(isset($_GET['envoi'])){
     echo '<h2 class="centrer">Votre nouveau mot de passe vous a été envoyé!</h2>';
   }
-  
+
   if(isset($_GET['mdpoublie'])){
     echo'
     <form class="centrer" name="oubli" action="connect.php?mdpoublie=1" method="post">
     <fieldset class="box">';
+    if(isset($_POST['mail'])){
+      echo'
+      <script type="text/javascript">
+        document.location.href="/mdp_oublie.php?mail='.$_POST['mail'].'";
+      </script>
+      ';
+    }
     echo'
     <legend><h2 class="centrer">Mot de passe Oublié</h2></legend>
     <label>
