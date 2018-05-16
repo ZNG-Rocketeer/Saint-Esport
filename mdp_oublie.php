@@ -6,7 +6,6 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 include 'assets/pdo_init.php';
-echo 'hola';
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
