@@ -3,8 +3,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Suppression...</title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="shortcut icon" href="../Image/Emote_Scout_Approve.ico">
+  <title> Forum | Zanga E-sport </title>
 </head>
+
 <body>
   <?php
   include '../assets/pdo_init.php';
