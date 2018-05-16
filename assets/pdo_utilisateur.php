@@ -44,6 +44,7 @@
             <td>'.$user[$i]['mail'].'</td>
             <td>'.$user[$i]['date_inscription'].'</td>
             <td class="sujet" onclick="document.location.href=\'pdo_utilisateur.php?mail='.$user[$i]['mail'].'\'"><a>Bannir</a></td>
+            </tr>
             ';
           }
         }
