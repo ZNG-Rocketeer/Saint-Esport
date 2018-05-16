@@ -13,8 +13,9 @@
   <br/>
   <div class="box" style="display:table; margin:auto">
     <h2 class="centrer"> Tournoi </h2>
-    <p> La Sainté Esport accueillera principalement du League of Legends;<br/>
+    <p> La Sainté Esport accueillera principalement du League of Legends; <br/>
       Mais d'autres petits tournois seront aussi au rendez-vous tels que:<br/>
+    </p>
       <ul>
         <li>
           Fortnite
@@ -27,7 +28,6 @@
         </li>
       </ul>
       Il y en aura donc pour tout les goûts!
-    </p>
   </div>
 
 
