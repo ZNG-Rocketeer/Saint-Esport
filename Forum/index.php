@@ -38,6 +38,8 @@
       </tbody>
     </tr>
   </table>
-  <br>
+  <br/>
+  <!-- FOOTER -->
+  <?php include("../Include/footer.php")?>
 </body>
 </html>

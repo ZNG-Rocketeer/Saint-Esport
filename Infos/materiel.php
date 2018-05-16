@@ -14,15 +14,17 @@
   <article>
     <h2> Materiel </h2>
     <p>
-      Voici la liste de matériel à apporter pour la LAN-Party. Tout oubli de matériel est éliminatoire.
+      Voici la liste de matériel à apporter pour la Zanga Esport.
+      <br/>
+      Tout oubli de matériel est éliminatoire alors soyez bien préparé ;).
       <br/>
       <ul>
-        <li> Ordinateur Portable ou Tour + PC </li>
-        <li> Multiprise </li>
-        <li> Souris </li>
-        <li> Clavier </li>
-        <li> Casque </li>
-        <li> Câble Ethernet RJ-45 </li>
+        <li> Un ordinateur Portable ou une tour + un PC </li>
+        <li> une multiprise </li>
+        <li> une souris </li>
+        <li> un clavier </li>
+        <li> un casque </li>
+        <li> un câble Ethernet RJ-45 </li>
       </ul>
     </p>
   </article>
