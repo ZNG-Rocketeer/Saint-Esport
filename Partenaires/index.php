@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="partenaire box" onclick="document.location.href='https://www.facebook.com/ZangaEsport/'">
-      <img src="../Image/Banniere_Zng.jpeg" style="width:50%;height:50%" alt="Zanga">
+      <img src="../Image/Banniere_Zng.jpeg" style="width:60%;height:60%" alt="Zanga">
       <div class="lien">
         Facebook
       </div>
