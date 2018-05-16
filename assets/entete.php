@@ -32,7 +32,7 @@ echo '
 
 if(isset($_SESSION['niveau']) && $_SESSION['niveau']==0){
   echo '
-  <a class="bar-espace btn" title="Contact" href="/">UTILISATEUR</a>
+  <a class="bar-espace btn" title="Utilisateur" href="/assets/pdo_utilisateur.php">UTILISATEUR</a>
   ';
 }
 echo '
