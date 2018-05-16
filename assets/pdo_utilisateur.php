@@ -12,16 +12,16 @@
   <?php include("entete.php"); ?>
   <br/>
   <table class="box">
-    <tr>
-      <thead class="box">
+    <thead class="box">
+      <tr>
         <th class="box titre_sujet">Pseudo</th>
         <th class="box">mail</th>
         <th class="box">Date</th>
-      </thead>
-    </tr>
-    <tr>
+      </tr>
+    </thead>
 
       <tbody class="box">
+        <tr>
 
         <?php
         include "pdo_init.php";
@@ -49,8 +49,8 @@
           }
         }
         ?>
+      </tr>
       </tbody>
-    </tr>
   </table>
   <br/>
   <!-- FOOTER -->
