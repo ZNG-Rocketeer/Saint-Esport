@@ -15,23 +15,16 @@
 
   <?php
   include 'assets/pdo_log.php';
-  include 'mdp_oublie.php';
   ?>
   <?php
-  if(isset($_POST['mail'])){
-    echo '
-    <script type="text/javascript">
-    document.location.href="/mdp_oublie.php?mail="'.$_POST['mail'].';
-    </script>
-    ';
-  }
   if(isset($_GET['envoi'])){
     echo '<h2 class="centrer">Votre nouveau mot de passe vous a été envoyé!</h2>';
   }
   if(isset($_GET['mdpoublie'])){
     echo'
-    <form class="centrer" name="oubli" action="connect.php" method="post">
+    <form class="centrer" name="oubli" action="connect.php?mdpoublie=1" method="post">
     <fieldset class="box">
+    include 'mdp_oublie.php';
     <legend><h2 class="centrer">Mot de passe Oublié</h2></legend>
     <label>
     Mail: <br/><input class="input centrer" type="text" name="mail"  placeholder="Entrez votre adresse mail" required="required">
