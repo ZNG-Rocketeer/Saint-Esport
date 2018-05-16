@@ -27,6 +27,7 @@
       <label>
         Mot de passe: <br/><input class="input centrer" type="password" name="mdp" placeholder="Entrez un mot de passe"required="required">
       </label>
+      <a class="box">Mot de passe oublié</a>
       <br/>
       <input class="submit centrer" type="submit" name="submit" value="Connexion">
     </fieldset>
