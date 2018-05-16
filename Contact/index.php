@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../master.css">
-  <title> Sainté E-sport </title>
+  <link rel="shortcut icon" href="/Image/Emote_Scout_Approve.ico">
+  <title> Contact | Zanga E-sport </title>
 </head>
 
 <body>
