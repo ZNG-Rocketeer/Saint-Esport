@@ -7,51 +7,57 @@
 
 \pagestyle{headings}
 
-\title{Projet Développement Web}
-
+\title{Projet Développement Web\\Zanga Esport}
 \author{KARCHE Mickael, FAYMANY Tanouvil}
-
 \date{\today}
-
 \begin{document}
-
 \maketitle
 
 \newpage
-
 \tableofcontents
-
 \newpage
 
-\section{Description du site}
-Pour ce projet, nous avons mis en place un site qui concerne l'organisation de LAN Party - événement rassemblant des personnes dans le but de jouer à des jeux vidéos - à Saint-Etienne plus précisément.
-Le site permettra entre autre d'organiser une lan et contiendra donc toutes les informations nécessaires pour son bon déroulement.
 
 
-\section{Mise en place du site}
-Avant de commencer la création du site, nous avons d'abord réfléchi à la structure générale du site (Qu'allions nous mettre en place, de quoi avions nous besoin pour créer un site).
+\section{Description générale du site}
+Pour ce projet, nous avons mis en place un site qui concerne l'organisation de LAN Party - événement rassemblant des personnes dans le but de jouer
+à des jeux vidéos - dans la région de Saint-Etienne, appelé \textit{Zanga ESPORT}.\\
+Le site contiendra donc toutes les informations nécessaires pour le bon déroulement de la lan et permettra donc son organisation!\\
+Ce site pourra aussi servir de lieu où les utilisateurs pourront partager leur passion et connaissance autour de cette même passion qu'est l'Esport en
+général.
 
-\subsection{Structure du site}
+
+
+\section{Structure du site}
+Avant de commencer la création du site, nous avons d'abord réfléchi à la structure générale qu'allait prendre site (Qu'allions nous mettre en place?
+De quoi avions nous besoin pour créer un site? Quel type d'utilisateur?).\\
+Une fois fait, nous avons pu commencer notre travail.\\
 Le site est divisé principalement en 5 sections.
 \begin{enumerate}
-\item Accueil : C'est la page d'accueil du site lorsqu'on la visite pour la 1ère fois.
-\item Infos : Cette partie est divisé en plusieurs sous-parties. C'est ici que vous trouverez toutes les informations à savoir si vous voulez participer à cette événement.
+\item Accueil : C'est la page d'accueil du site lorsque vous arrivez sur le site.
+\item Infos : C'est ici que vous trouverez toutes les informations à savoir si vous voulez participer à cet événement. Cette section est divisée en 5 sous-parties :
+  \begin{itemize}
+  \item Tournoi : Cette page indiquera comment le tournoi se déroulera (Cashprize, Phase de poules, phase éliminatoire...)
+  \item Horaire : Elle indique la durée et le lieu de l'événement.  
+  \item Matériel : Cette page indiquera la liste de matériel à emporter pour ne pas être pris au dépourvu lors de l'arrivée.
+  \item Inscription : C'est la page pour s'inscrire à la lan. Uniquement accessible si vous êtes inscrit sur le site.
+  \end{itemize}
 \item Partenaires : Contient tout les partenaires de notre site.
 \item Forum : Ce forum servira avant tout à discuter, les personnes pourront librement parler de leur passion qu'est les jeux vidéos.
   Cela peut être aussi un forum d'entraide: Si une personne est nouvelle et a besoin d'aide pour pouvoir progresser, ce forum sera le bienvenu.
   Il permettra aussi de partager des idées à propos de la LAN (Améliorations possibles, Point à corriger, etc.).
   Il peut aussi permettre la rencontre entre des personnes qui chercheraientt d'autres partenaires pour pouvoir y participer sachant que le jeu principal du tournoi de la Zanga Esport est League of Legends, un jeu d'équipe en 5 contre 5.
-  %%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
 \item Contact : Cette section pourra être utile si jamais vous ne trouvez pas de réponse à vos questions lors de votre visite sur ce site.
 \end{enumerate}
-Il y a aussi 2 boutons pour se connecter ou s'inscrire.
-%%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
+On notera aussi la présence de deux boutons \textit{Connexion} et \textit{s'inscrire} ou un bouton \textit{déconnexion} si l'on est déjà connecté.
+
+
 
 \section{Gestion d'utilisateur}
 Il existe 2 types d'utilisateur: l'utilisateur lambda et les admins
 Lorsque vous accédez au site, vous aurez la possibilité de vous inscrire ou de vous connecter.\\
-Si vous vous inscrivez, il vous suffira de cliquer sur le boutton \textit{S'inscrire} en haut à droite de la page, qui vous redirigera sur une page où l'on
-vous demandera les éléments suivants :
+Si vous vous inscrivez, il vous suffira de cliquer sur le bouton \textit{S'inscrire} en haut à droite de la page, qui vous redirigera sur une page où l'on
+vous demandera de remplir les 4 champs suivants :
 \begin{enumerate}
 \item Une adresse e-mail valide
 \item Un pseudo qui sera votre donc votre nom d'utilisateur, le pseudo ne doit pas être déjà existant, le cas échéant l'inscription ne pourra se faire.
@@ -60,25 +66,71 @@ vous demandera les éléments suivants :
 \end{enumerate}
 A la fin de votre inscription, vous recevrez un mail contenant votre nom d'utilisateur ainsi que le mot de passe que vous avez choisi.\\
 Une fois inscrit, vous devrez donc pouvoir vous connecter en cliquant sur le bouton \textit{Connexion} situé en haut à droite: cela vous redirigera sur page où l'on vous demandera votre pseudo et votre mot de passe pour pouvoir vous connecter.\\
-Une fois connecté, la personne connecté aura donc la possibilité d'accéder à certains contenus, ainsi que d'utiliser pleinement le forum.\\
+Une fois connecté, l'utilisateur aura donc la possibilité d'accéder à certains contenus, ainsi que d'utiliser pleinement le forum.\\
 Elle pourra créer des nouveaux sujets, répondre à des messages et elle aura aussi la possibilité de supprimer ses propres messages.\\
-A contrario si un utilisateur n'est pas inscrit, il ne pourra pas répondre à des messages sur le forum ou bien même de créer des sujets mais il pourra quand même lire les messages et les sujets postés sur le forum.\\
-L'utilisateur pourra aussi changer de mot de passe s'il le souhaite: il lui suffira d'accéder à son profil en cliquant sur le boutton \textit{profil} placé en haut à droite du site puis de changer son mot de passe: à la fin de cette étape, il recevra un e-mail indiquant son nom d'utilisateur et son nouveau mot de passe.\\
-L'administrateur aura des droits supplémentaires, il pourra modérer tout le contenu que les utilisateurs créeront : il pourra supprimer des messages ou carrément des sujets à sa guise.
+A contrario si un utilisateur n'est pas inscrit, il ne pourra pas répondre à des messages sur le forum ou bien même de créer des sujets mais il pourra quand
+même lire les messages et les sujets postés sur le forum.\\
+Enfin il pourra surtout accéder à la partie \textit{Inscription} du site où il pourra payer son inscription via PayPal.\\
+Une fois le paiement effectué. L'administrateur dans les 72h verifiera si le virement a bien été encaissé et l'inscrira dans la liste des joueurs participants à la Zanga Esport.\\
+L'utilisateur pourra aussi changer de mot de passe s'il le souhaite: il lui suffira d'accéder à son profil en cliquant sur le bouton \textit{profil} placé en haut à droite du site puis de changer son mot de passe: à la fin de cette étape, il recevra un e-mail indiquant son nom d'utilisateur et son nouveau mot de passe.\\
+L'administrateur aura des droits supplémentaires, il pourra modérer tout le contenu que les utilisateurs créeront : il pourra supprimer des messages ou
+des sujets à sa guise.
+
+
 
 \section{Utilisation de Javascript}
-%%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%% 
+Du Javascript a été implémenté pour une utilisation plus efficace et plus agréable du site, notamment du forum.\\
+La liste des sujets s'affiche sous forme de tableau mais il fallait absolument cliquer sur le titre du sujet pour accéder à son contenu.\\
+Nous avons donc injecté dans \textit{table} la fonction qui permet de cliquer sur la case correspondant au titre du sujet, ce qui rendra la navigation des plus agréables.\\
+De plus nous avons ajouté une fonction qui, lorsque vous cliquez sur connectez après avoir rentré vos identifiants vous renverra sur la page d'accueil au lieu de vous rediriger sur la même page de connexion.\\
+Nous avons une fonction qui permet aussi pour l'administrateur de bannir un utilisateur. l'Administrateur peut accéder à la liste des utilisateurs sur le site avec un onglet visible seulement pour lui.\\
+La liste des utilisateurs est donc représentée sous forme de tableau avec un bouton supprimer à droite de chaque utilisateur, en cliquant sur supprimer. On lance la fonction javascript qui supprimera l'utilisateur de la base de données.
+
+
 
 \section{Base de données}
-Pour pouvoir utiliser le forum et inscrire les utilisateurs et les admins.
-Nous avons créer une base de données appelée \textit{ESPORT}.
-Elle contient plusieurs tables.
+Pour pouvoir utiliser le forum et gérer les utilisateurs inscrits et les administrateurs.\\
+Nous avions besoin d'une base de données et nous en avons donc crée une appelée \textit{ESPORT}.\\
+Cette base de données contient plusieurs tables.
 \begin{enumerate}
-\item %%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%% 
-\item %%%%%%%%%%%% A completer %%%%%%%%%%%%%%%%%%
+\item Zng\_user : Cette table contient la liste de tout les utilisateurs inscrits (Administrateurs compris) et ses données, il contient les champs suivants :
+  \begin{itemize}
+  \item : Le pseudo.
+  \item : Le mail.
+  \item : Le mot de passe, les mots de passes stockés dans la base de données sont encodés en MD5, ce qui ajoute une sécurité supplémentaire.
+  \item : Le niveau d'importance qui indique si la personne est un simple utilisateur ou un administrateur.
+  \item : La date d'inscription.
+  \end{itemize}
+\item Forum\_post : Cette table représente l'ensemble des messages postés sur le forum, la table contient entre autre:
+  \begin{itemize}
+  \item : L'identifiant (Clé primaire) du post.
+  \item : Le contenu du post.
+  \item : Le titre du sujet dans lequel le post a été rédigé.
+  \item : La date à laquelle le message a été posté (en DATETIME)
+  \item : Une variable supprimable qui indique si le message peut être supprimé (Le 1er message, c'est à dire le message principal du sujet ne peut pas
+    être supprimé).
+  \item : Le mail de celui qui a posté le message.
+  \end{itemize}
+\item Forum\_sujet: Cette table comporte la liste de tout les sujets crées. Elle inclut :
+  \begin{itemize}
+  \item : l'identifiant (Clé primaire) du sujet. 
+  \item : Le titre du sujet.
+  \item : La date à laquelle le sujet a été posté.
+  \item : Le mail du créateur du sujet.
+  \end{itemize}
 \end{enumerate}
+
+
+
+%%%%%
+%%%%% \section{Amélioration possible}
+%%%%% Pour améliorer le site, nous aurions pu ajouter la possibilité à l'administrateur de pouvoir bannir (définitivement ou temporairement) un utilisateur qui
+%%%%% ne respecterai pas la charte d'utilisation du forum.
+%%%%%
+
+
+
+\section{Contribution du site}
+Nous remercions avant tout Mickaël pour la plus grande partie du site, c'est à dire sa réalisation technique (Php, PDO, MySQL) ainsi que Tanouvil pour ses idées (partie Html, structure général du site et contenu) lors de la réalisation de ce projet, qui peut-être aboutira à l'organisation de vrais événements E-sportif dans la région de Saint-Etienne !
 
 \end{document}
