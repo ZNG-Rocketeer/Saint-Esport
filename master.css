@@ -28,11 +28,9 @@ body {
   background-color: #A9A9A9; /** Gris **/
 }
 
-
 div{
   font-family: HelveticaNeue;
 }
-
 
 h1, h2 {
   margin-left: auto;
@@ -47,7 +45,6 @@ h1 {
   font-size: 5rem;
 }
 
-
 a {
   line-height: 3;
   border-radius:5px;
@@ -61,7 +58,6 @@ nav{
   margin: 0;
 }
 
-
 label {
   display: inline-block;
   margin-bottom: .5rem;
@@ -74,7 +70,6 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-
 
 textarea {
   overflow: auto;
@@ -136,11 +131,12 @@ textarea {
   padding-right: 20px;
 }
 
+/** Non utilisé
 .lien_part{
   color:black;
   text-decoration: underline;
 }
-
+Non utilisé **/
 .btn:hover{
   opacity: 1;
   background-color:#CCC;
@@ -150,6 +146,7 @@ textarea {
   text-decoration: underline;
   font-weight: bold;
 }
+
 .input{
   border: 3px solid #7a7a7a;
   padding: 12px;
@@ -159,10 +156,10 @@ textarea {
   color: #636363;
   border-radius:10px;
 }
+
 ::placeholder{
   color: #636363;
 }
-
 
 .submit{
   font-family: newfont;
@@ -179,8 +176,6 @@ textarea {
 .submit:hover{
   opacity: 0.5;
 }
-
-/***** A CHANGER ******/
 
 /***** LISTE DES SUJETS *****/
 table{
@@ -204,8 +199,6 @@ td{
   font-weight: bold;
 }
 
-
-/***** FIN LISTE DES SUJETS *****/
 .centrer_titre{
   margin-top: 40px;
   font-family: Devil;
@@ -233,7 +226,6 @@ textarea {
   max-width: 70%;
 }
 
-/**** FIN NEW SUJET ****/
 header{
   color: white;
   background-image: url(/Image/header.png);
@@ -267,14 +259,6 @@ article{
 
 }
 
-.Top-left{
-  position:absolute;
-  top: 10px;
-  left: 50px;
-  width: 100px;
-  height: 100px;
-}
-
 .nav-padding{
   padding: 8px 16px;
   color: white;
@@ -290,6 +274,7 @@ article{
   word-spacing: 20px;
   box-shadow: 0px 0px 5px #727272,0px 0px 20px #494949;
 }
+
 .margin-top{
   margin-top: 40px;
 }
@@ -304,8 +289,6 @@ article{
   cursor: pointer;
   background-color: #b5b5b5;
 }
-
-
 
 .bar-espace{
   margin-right: 3%;
