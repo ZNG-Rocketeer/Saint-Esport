@@ -10,6 +10,8 @@
 <body>
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
+  <br>
+  <br>
   <table>
     <?php
     include 'add_post.php';

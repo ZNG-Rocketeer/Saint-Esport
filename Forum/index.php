@@ -11,7 +11,18 @@
   <!-- HEADER -->
   <?php include("../Include/entete.php"); ?>
   <br>
-  <div class="centrer"><a class="btn" href="new_discussion.php">Nouveau sujet</a></div>
+
+  <?php
+  if(!isset($_SESSION['pseudo'])){
+    echo '<h2 class="centrer">Veuillez vous connecter!!</h2>';
+  }
+  else{
+    echo '
+    <div class="centrer"><a class="btn" href="new_discussion.php">Nouveau sujet</a></div>
+    ';
+  }
+  ?>
+
   <table class="box">
     <tr>
       <thead class="box">
@@ -22,10 +33,10 @@
     </tr>
     <tr>
 
-    <tbody class="box">
-      <?php include 'liste_sujet.php'?>
-    </tbody>
-  </tr>
+      <tbody class="box">
+        <?php include 'liste_sujet.php'?>
+      </tbody>
+    </tr>
   </table>
   <br>
 </body>
