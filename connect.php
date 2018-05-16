@@ -56,6 +56,9 @@
       </script>
     ';
   }
+  if(isset($_GET['envoi'])){
+    echo '<h2 class="centrer">Votre nouveau mot de passe vous a été envoyé!</h2>';
+  }
   ?>
   <!-- FOOTER -->
   <?php include("Include/footer.php")?>

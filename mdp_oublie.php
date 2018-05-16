@@ -23,17 +23,24 @@ try {
     $mail->addAddress($_GET['mail'], 'Unknown');     // Add a recipient
     $mail->addReplyTo('zng.contact@gmail.com','ZNG SUPPORT');
 
+    $mdp=rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9).rand(1,9);
+    $chgmdp=$pdo->prepare("UPDATE zng_user SET mdp=? WHERE mail= ?");
+    $chgmdp->bindParam(1,md5($mdp));
+    $chgmdp->bindParam(2,$_GET['mail']);
+    $chgmdp->execute();
+
+
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Nouveau mot de passe ZNG-ESPORT';
-    $mail->Body    = 'Vous venez de vous signaler l\'oubli votre mot de passe <b>ZNG-ESPORT</b> <br/> Voici votre pseudo: '.$_GET['pseudo'].'<br/> Et votre nouveau mot de passe: '.$_GET['ps'];
-    $mail->AltBody = 'Vous venez de vous signaler l\'oubli votre mot de passe ZNG-ESPORT. Voici votre pseudo: '.$_GET['pseudo'].'Et votre nouveau mot de passe: '.$_GET['ps'];
+    $mail->Body    = 'Vous venez de vous signaler l\'oubli votre mot de passe <b>ZNG-ESPORT</b> <br/> Voici votre nouveau mot de passe: '.$mdp;
+    $mail->AltBody = 'Vous venez de vous signaler l\'oubli votre mot de passe ZNG-ESPORT. Voici votre nouveau mot de passe: '.$mdp;
 
     $mail->send();
     echo 'Message has been sent';
     echo '
     <script type="text/javascript">
-      document.location.href="/pdo_profil.php";
+      document.location.href="/connect.php?envoi=1";
     </script>
     ';
 } catch (Exception $e) {
