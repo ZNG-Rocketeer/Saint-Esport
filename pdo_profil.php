@@ -35,6 +35,7 @@
         <br/>
         <label>
           Adresse Mail: <br/><input class="input centrer" type="email" name="mail" <?php echo 'value="'.$_SESSION['mail'].'"';?> required="required" readonly>
+        </label>
           <br/>
         </fieldset>
         <br/>
