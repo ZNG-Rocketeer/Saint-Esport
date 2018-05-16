@@ -32,9 +32,7 @@
       </tr>
     </thead>
     <tbody class="box">
-    <tr>
         <?php include 'liste_sujet.php'?>
-    </tr>
     </tbody>
   </table>
   <br/>
