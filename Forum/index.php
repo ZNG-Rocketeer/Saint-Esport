@@ -24,19 +24,18 @@
   ?>
 
   <table class="box">
-    <tr>
-      <thead class="box">
+    <thead class="box">
+      <tr>
         <th class="box titre_sujet">Titre des sujets</th>
         <th class="box">Auteur</th>
         <th class="box">Date</th>
-      </thead>
-    </tr>
+      </tr>
+    </thead>
+    <tbody class="box">
     <tr>
-
-      <tbody class="box">
         <?php include 'liste_sujet.php'?>
-      </tbody>
     </tr>
+    </tbody>
   </table>
   <br/>
   <!-- FOOTER -->
