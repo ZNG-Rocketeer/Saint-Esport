@@ -17,14 +17,14 @@
     <p>
       Voici les différents partenaires de la Zanga Esport !
     </p>
-    <div class="partenaire box" onclick="document.location.href='https://www.twitch.tv/ihfisk'">
-      <img src="../Image/twitch.png" style="width:20%;height:20%" alt="Twitch">
+    <div class="partenaire box" onclick="document.location.href='https://www.twitch.tv/ihfisk' style="width:20%;height:20%"">
+      <img src="../Image/twitch.png" alt="Twitch">
       <div class="lien">
         Twitch
       </div>
     </div>
-    <div class="partenaire box" onclick="document.location.href='https://www.facebook.com/ZangaEsport/'">
-      <img src="../Image/Banniere_Zng.jpeg" style="width:90%;height:60%" alt="Zanga">
+    <div class="partenaire box" onclick="document.location.href='https://www.facebook.com/ZangaEsport/' style="width:20%;height:20%"">
+      <img src="../Image/Banniere_Zng.jpeg"  alt="Zanga">
       <div class="lien">
         Facebook
       </div>
