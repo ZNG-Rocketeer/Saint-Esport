@@ -10,9 +10,7 @@
 <body>
   <!-- HEADER -->
   <?php include("Include/entete.php"); ?>
-
   <br/>
-
   <p> Bienvenue sur le site de Sainté Esport. </p>
   <p>
     Vous trouverez ici toutes les informations nécessaires au bon déroulement de la lan ainsi que de ses modalités.
