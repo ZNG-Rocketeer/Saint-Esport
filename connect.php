@@ -23,8 +23,9 @@
   if(isset($_GET['mdpoublie'])){
     echo'
     <form class="centrer" name="oubli" action="connect.php?mdpoublie=1" method="post">
-    <fieldset class="box">
+    <fieldset class="box">';
     include 'mdp_oublie.php';
+    echo'
     <legend><h2 class="centrer">Mot de passe Oublié</h2></legend>
     <label>
     Mail: <br/><input class="input centrer" type="text" name="mail"  placeholder="Entrez votre adresse mail" required="required">
