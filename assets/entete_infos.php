@@ -8,7 +8,7 @@ echo '
     echo '<div class="Membre box">Connecté en tant que : '.$_SESSION['pseudo'].'
     <br/>
     <a class="btn bar-espace" href="/pdo_profil.php">Profil</a>
-    <a class="btn " href="/pdo_deco.php">Déconnexion</a>
+    <a class="btn " href="/assets/pdo_deco.php">Déconnexion</a>
     </div>';
   }
   else{
@@ -29,7 +29,15 @@ echo '
     <a class="bar-espace btn" title="Partenaires" href="/Partenaires/">PARTENAIRES</a>
     <a class="bar-espace btn" title="Forum" href="/Forum/">FORUM</a>
     <a class="bar-espace btn" title="Contact" href="/Contact/">CONTACT</a>
+    ';
 
+    if(isset($_SESSION['niveau']) && $_SESSION['niveau']==0){
+      echo '
+      <a class="bar-espace btn" title="Utilisateur" href="/assets/pdo_utilisateur.php">UTILISATEUR</a>
+      ';
+    }
+
+echo '
   </nav>
   <nav class="nav-padding2 centrer">
     <a class="bar-espace btn" title="Tournoi" href="./tournoi.php">Tournoi</a>
